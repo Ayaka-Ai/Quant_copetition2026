@@ -1,2 +1,2 @@
 # Quant_copetition2026
-Qlib
+Qlib related code for quantitative competition
