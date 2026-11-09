@@ -1,0 +1,14 @@
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/src/
+/src/*
+!/src/factors.py
+!/src/export_factors.py
+!/src/test_export_factors.py
+__pycache__/
+*.py[cod]
+.env
+.env.*
+data/
