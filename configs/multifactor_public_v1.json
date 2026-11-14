@@ -1,0 +1,56 @@
+{
+  "schema_version": "traditional_factors_public_1.0",
+  "strategy_id": "CLEAR_FACTORS_20_EW80",
+  "rule_version": "FACTORS-PUBLIC-1.0.0",
+  "frozen_on_hkt": "2026-11-07",
+  "base_config_file": "momentum_public_backtest_v1.json",
+  "base_config_sha256": "3397bd3e05c7a3b9d84c5697186caa8dc5ef1b2513e50f68c371a35e85b8dc20",
+  "feature_version": "clear_traditional_daily_v1",
+  "minimum_signal_sessions": 61,
+  "normalization": {
+    "group": "frozen_GICS_sector",
+    "winsorization": "median_plus_minus_3_MAD_skip_if_MAD_zero",
+    "zscore": "population_std_zero_if_constant",
+    "ranking": "pooled_percentile_average_ties_singleton_0.5"
+  },
+  "price_volume_weights": {
+    "trend": "0.45",
+    "reversal": "0.25",
+    "intraday_quality": "0.20",
+    "volume_confirmation": "0.10"
+  },
+  "defensive_weights": {
+    "low_volatility": "0.60",
+    "liquidity_stability": "0.40"
+  },
+  "final_weights_before_normalization": {
+    "price_volume": "0.25",
+    "defensive": "0.10"
+  },
+  "comparison": "momentum20_on_identical_complete_factor_pool_and_same_signal_dates",
+  "research_protocol": {
+    "registered_on_hkt": "2026-11-07",
+    "parameter_search_performed": false,
+    "independent_out_of_sample": false,
+    "evaluation_windows": [
+      {
+        "id": "exploratory_development",
+        "start": "2024-11-04",
+        "end_exclusive": "2026-05-04"
+      },
+      {
+        "id": "exploratory_later_period",
+        "start": "2026-05-04",
+        "end_exclusive": "2026-11-04"
+      }
+    ]
+  },
+  "broker_routing_enabled": false,
+  "optional_features": {
+    "machine_learning": false,
+    "news": false,
+    "market_regime": false,
+    "topk_dropout": false
+  },
+  "interpretation": "Traditional-only research ablation; ML weight 0.65 omitted and remaining 0.25/0.10 renormalized. Not the complete CLEAR-US strategy."
+}

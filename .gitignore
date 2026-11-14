@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.venv/
+experiments/databento_smoke/data/
+
+# Local derived research outputs
+outputs/
+output/
+tmp/
+.DS_Store
+.pytest_cache/
+*.py[cod]

@@ -1,0 +1,3532 @@
+{
+  "snapshot_date": "2026-11-03",
+  "membership_mode": "frozen_current_constituents_snapshot",
+  "source_url": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv",
+  "source_csv_sha256": "941ec91edb922f802b7b9c14a4a006ac65606f74a2882ea57cabd5e0ff825ebc",
+  "source_description": "datasets/s-and-p-500-companies, based on Wikipedia; source captured 2026-11-03",
+  "security_count": 503,
+  "historical_use": "Exploratory only; this current membership snapshot is not historical point-in-time membership.",
+  "records": [
+    {
+      "symbol": "MMM",
+      "company": "3M",
+      "sector": "Industrials",
+      "issuer_cik": "0000066740",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "AOS",
+      "company": "A. O. Smith",
+      "sector": "Industrials",
+      "issuer_cik": "0000091142",
+      "index_added_date": "2017-07-26"
+    },
+    {
+      "symbol": "ABT",
+      "company": "Abbott Laboratories",
+      "sector": "Health Care",
+      "issuer_cik": "0000001800",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "ABBV",
+      "company": "AbbVie",
+      "sector": "Health Care",
+      "issuer_cik": "0001551152",
+      "index_added_date": "2012-12-31"
+    },
+    {
+      "symbol": "ACN",
+      "company": "Accenture",
+      "sector": "Information Technology",
+      "issuer_cik": "0001467373",
+      "index_added_date": "2011-07-06"
+    },
+    {
+      "symbol": "ADBE",
+      "company": "Adobe Inc.",
+      "sector": "Information Technology",
+      "issuer_cik": "0000796343",
+      "index_added_date": "1997-05-05"
+    },
+    {
+      "symbol": "AMD",
+      "company": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "issuer_cik": "0000002488",
+      "index_added_date": "2017-03-20"
+    },
+    {
+      "symbol": "AES",
+      "company": "AES Corporation",
+      "sector": "Utilities",
+      "issuer_cik": "0000874761",
+      "index_added_date": "1998-10-02"
+    },
+    {
+      "symbol": "AFL",
+      "company": "Aflac",
+      "sector": "Financials",
+      "issuer_cik": "0000004977",
+      "index_added_date": "1999-05-28"
+    },
+    {
+      "symbol": "A",
+      "company": "Agilent Technologies",
+      "sector": "Health Care",
+      "issuer_cik": "0001090872",
+      "index_added_date": "2000-06-05"
+    },
+    {
+      "symbol": "APD",
+      "company": "Air Products",
+      "sector": "Materials",
+      "issuer_cik": "0000002969",
+      "index_added_date": "1985-04-30"
+    },
+    {
+      "symbol": "ABNB",
+      "company": "Airbnb",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001559720",
+      "index_added_date": "2023-09-18"
+    },
+    {
+      "symbol": "AKAM",
+      "company": "Akamai Technologies",
+      "sector": "Information Technology",
+      "issuer_cik": "0001086222",
+      "index_added_date": "2007-07-12"
+    },
+    {
+      "symbol": "ALB",
+      "company": "Albemarle Corporation",
+      "sector": "Materials",
+      "issuer_cik": "0000915913",
+      "index_added_date": "2016-07-01"
+    },
+    {
+      "symbol": "ARE",
+      "company": "Alexandria Real Estate Equities",
+      "sector": "Real Estate",
+      "issuer_cik": "0001035443",
+      "index_added_date": "2017-03-20"
+    },
+    {
+      "symbol": "ALGN",
+      "company": "Align Technology",
+      "sector": "Health Care",
+      "issuer_cik": "0001097149",
+      "index_added_date": "2017-06-19"
+    },
+    {
+      "symbol": "ALLE",
+      "company": "Allegion",
+      "sector": "Industrials",
+      "issuer_cik": "0001579241",
+      "index_added_date": "2013-12-02"
+    },
+    {
+      "symbol": "LNT",
+      "company": "Alliant Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0000352541",
+      "index_added_date": "2016-07-01"
+    },
+    {
+      "symbol": "ALL",
+      "company": "Allstate",
+      "sector": "Financials",
+      "issuer_cik": "0000899051",
+      "index_added_date": "1995-07-13"
+    },
+    {
+      "symbol": "GOOGL",
+      "company": "Alphabet Inc. (Class A)",
+      "sector": "Communication Services",
+      "issuer_cik": "0001652044",
+      "index_added_date": "2006-04-03"
+    },
+    {
+      "symbol": "GOOG",
+      "company": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
+      "issuer_cik": "0001652044",
+      "index_added_date": "2014-04-03"
+    },
+    {
+      "symbol": "MO",
+      "company": "Altria",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000764180",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "AMZN",
+      "company": "Amazon",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001018724",
+      "index_added_date": "2005-11-18"
+    },
+    {
+      "symbol": "AMCR",
+      "company": "Amcor",
+      "sector": "Materials",
+      "issuer_cik": "0001748790",
+      "index_added_date": "2019-06-07"
+    },
+    {
+      "symbol": "AEE",
+      "company": "Ameren",
+      "sector": "Utilities",
+      "issuer_cik": "0001002910",
+      "index_added_date": "1991-09-19"
+    },
+    {
+      "symbol": "AEP",
+      "company": "American Electric Power",
+      "sector": "Utilities",
+      "issuer_cik": "0000004904",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "AXP",
+      "company": "American Express",
+      "sector": "Financials",
+      "issuer_cik": "0000004962",
+      "index_added_date": "1976-06-30"
+    },
+    {
+      "symbol": "AIG",
+      "company": "American International Group",
+      "sector": "Financials",
+      "issuer_cik": "0000005272",
+      "index_added_date": "1980-03-31"
+    },
+    {
+      "symbol": "AMT",
+      "company": "American Tower",
+      "sector": "Real Estate",
+      "issuer_cik": "0001053507",
+      "index_added_date": "2007-11-19"
+    },
+    {
+      "symbol": "AWK",
+      "company": "American Water Works",
+      "sector": "Utilities",
+      "issuer_cik": "0001410636",
+      "index_added_date": "2016-03-04"
+    },
+    {
+      "symbol": "AMP",
+      "company": "Ameriprise Financial",
+      "sector": "Financials",
+      "issuer_cik": "0000820027",
+      "index_added_date": "2005-10-03"
+    },
+    {
+      "symbol": "AME",
+      "company": "Ametek",
+      "sector": "Industrials",
+      "issuer_cik": "0001037868",
+      "index_added_date": "2013-09-23"
+    },
+    {
+      "symbol": "AMGN",
+      "company": "Amgen",
+      "sector": "Health Care",
+      "issuer_cik": "0000318154",
+      "index_added_date": "1992-01-02"
+    },
+    {
+      "symbol": "APH",
+      "company": "Amphenol",
+      "sector": "Information Technology",
+      "issuer_cik": "0000820313",
+      "index_added_date": "2008-09-30"
+    },
+    {
+      "symbol": "ADI",
+      "company": "Analog Devices",
+      "sector": "Information Technology",
+      "issuer_cik": "0000006281",
+      "index_added_date": "1999-10-12"
+    },
+    {
+      "symbol": "AON",
+      "company": "Aon plc",
+      "sector": "Financials",
+      "issuer_cik": "0000315293",
+      "index_added_date": "1996-04-23"
+    },
+    {
+      "symbol": "APA",
+      "company": "APA Corporation",
+      "sector": "Energy",
+      "issuer_cik": "0001841666",
+      "index_added_date": "1997-07-28"
+    },
+    {
+      "symbol": "APO",
+      "company": "Apollo Global Management",
+      "sector": "Financials",
+      "issuer_cik": "0001858681",
+      "index_added_date": "2024-12-23"
+    },
+    {
+      "symbol": "AAPL",
+      "company": "Apple Inc.",
+      "sector": "Information Technology",
+      "issuer_cik": "0000320193",
+      "index_added_date": "1982-11-30"
+    },
+    {
+      "symbol": "AMAT",
+      "company": "Applied Materials",
+      "sector": "Information Technology",
+      "issuer_cik": "0000006951",
+      "index_added_date": "1995-03-16"
+    },
+    {
+      "symbol": "APP",
+      "company": "AppLovin",
+      "sector": "Communication Services",
+      "issuer_cik": "0001751008",
+      "index_added_date": "2025-09-22"
+    },
+    {
+      "symbol": "APTV",
+      "company": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001521332",
+      "index_added_date": "2012-12-24"
+    },
+    {
+      "symbol": "ACGL",
+      "company": "Arch Capital Group",
+      "sector": "Financials",
+      "issuer_cik": "0000947484",
+      "index_added_date": "2022-11-01"
+    },
+    {
+      "symbol": "ADM",
+      "company": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000007084",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "ARES",
+      "company": "Ares Management",
+      "sector": "Financials",
+      "issuer_cik": "0001176948",
+      "index_added_date": "2025-12-11"
+    },
+    {
+      "symbol": "ANET",
+      "company": "Arista Networks",
+      "sector": "Information Technology",
+      "issuer_cik": "0001596532",
+      "index_added_date": "2018-08-28"
+    },
+    {
+      "symbol": "AJG",
+      "company": "Arthur J. Gallagher & Co.",
+      "sector": "Financials",
+      "issuer_cik": "0000354190",
+      "index_added_date": "2016-05-31"
+    },
+    {
+      "symbol": "AIZ",
+      "company": "Assurant",
+      "sector": "Financials",
+      "issuer_cik": "0001267238",
+      "index_added_date": "2007-04-10"
+    },
+    {
+      "symbol": "T",
+      "company": "AT&T",
+      "sector": "Communication Services",
+      "issuer_cik": "0000732717",
+      "index_added_date": "1983-11-30"
+    },
+    {
+      "symbol": "ATO",
+      "company": "Atmos Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0000731802",
+      "index_added_date": "2019-02-15"
+    },
+    {
+      "symbol": "ADSK",
+      "company": "Autodesk",
+      "sector": "Information Technology",
+      "issuer_cik": "0000769397",
+      "index_added_date": "1989-12-01"
+    },
+    {
+      "symbol": "ADP",
+      "company": "Automatic Data Processing",
+      "sector": "Industrials",
+      "issuer_cik": "0000008670",
+      "index_added_date": "1981-03-31"
+    },
+    {
+      "symbol": "AZO",
+      "company": "AutoZone",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000866787",
+      "index_added_date": "1997-01-02"
+    },
+    {
+      "symbol": "AVY",
+      "company": "Avery Dennison",
+      "sector": "Materials",
+      "issuer_cik": "0000008818",
+      "index_added_date": "1987-12-31"
+    },
+    {
+      "symbol": "AXON",
+      "company": "Axon Enterprise",
+      "sector": "Industrials",
+      "issuer_cik": "0001069183",
+      "index_added_date": "2023-05-04"
+    },
+    {
+      "symbol": "BKR",
+      "company": "Baker Hughes",
+      "sector": "Energy",
+      "issuer_cik": "0001701605",
+      "index_added_date": "2017-07-07"
+    },
+    {
+      "symbol": "BALL",
+      "company": "Ball Corporation",
+      "sector": "Materials",
+      "issuer_cik": "0000009389",
+      "index_added_date": "1984-10-31"
+    },
+    {
+      "symbol": "BAC",
+      "company": "Bank of America",
+      "sector": "Financials",
+      "issuer_cik": "0000070858",
+      "index_added_date": "1976-06-30"
+    },
+    {
+      "symbol": "BAX",
+      "company": "Baxter International",
+      "sector": "Health Care",
+      "issuer_cik": "0000010456",
+      "index_added_date": "1972-09-30"
+    },
+    {
+      "symbol": "BDX",
+      "company": "Becton Dickinson",
+      "sector": "Health Care",
+      "issuer_cik": "0000010795",
+      "index_added_date": "1972-09-30"
+    },
+    {
+      "symbol": "BRK.B",
+      "company": "Berkshire Hathaway",
+      "sector": "Financials",
+      "issuer_cik": "0001067983",
+      "index_added_date": "2010-02-16"
+    },
+    {
+      "symbol": "BBY",
+      "company": "Best Buy",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000764478",
+      "index_added_date": "1999-06-29"
+    },
+    {
+      "symbol": "TECH",
+      "company": "Bio-Techne",
+      "sector": "Health Care",
+      "issuer_cik": "0000842023",
+      "index_added_date": "2021-08-30"
+    },
+    {
+      "symbol": "BIIB",
+      "company": "Biogen",
+      "sector": "Health Care",
+      "issuer_cik": "0000875045",
+      "index_added_date": "2003-11-13"
+    },
+    {
+      "symbol": "BLK",
+      "company": "BlackRock",
+      "sector": "Financials",
+      "issuer_cik": "0002012383",
+      "index_added_date": "2011-04-04"
+    },
+    {
+      "symbol": "BX",
+      "company": "Blackstone Inc.",
+      "sector": "Financials",
+      "issuer_cik": "0001393818",
+      "index_added_date": "2023-09-18"
+    },
+    {
+      "symbol": "XYZ",
+      "company": "Block, Inc.",
+      "sector": "Financials",
+      "issuer_cik": "0001512673",
+      "index_added_date": "2025-07-23"
+    },
+    {
+      "symbol": "BE",
+      "company": "Bloom Energy",
+      "sector": "Industrials",
+      "issuer_cik": "0001664703",
+      "index_added_date": "2026-09-21"
+    },
+    {
+      "symbol": "BNY",
+      "company": "BNY Mellon",
+      "sector": "Financials",
+      "issuer_cik": "0001390777",
+      "index_added_date": "1995-03-31"
+    },
+    {
+      "symbol": "BA",
+      "company": "Boeing",
+      "sector": "Industrials",
+      "issuer_cik": "0000012927",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "BKNG",
+      "company": "Booking Holdings",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001075531",
+      "index_added_date": "2009-11-06"
+    },
+    {
+      "symbol": "BSX",
+      "company": "Boston Scientific",
+      "sector": "Health Care",
+      "issuer_cik": "0000885725",
+      "index_added_date": "1995-02-24"
+    },
+    {
+      "symbol": "BMY",
+      "company": "Bristol Myers Squibb",
+      "sector": "Health Care",
+      "issuer_cik": "0000014272",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "AVGO",
+      "company": "Broadcom",
+      "sector": "Information Technology",
+      "issuer_cik": "0001730168",
+      "index_added_date": "2014-05-08"
+    },
+    {
+      "symbol": "BR",
+      "company": "Broadridge Financial Solutions",
+      "sector": "Industrials",
+      "issuer_cik": "0001383312",
+      "index_added_date": "2018-06-18"
+    },
+    {
+      "symbol": "BRO",
+      "company": "Brown & Brown",
+      "sector": "Financials",
+      "issuer_cik": "0000079282",
+      "index_added_date": "2021-09-20"
+    },
+    {
+      "symbol": "BF.B",
+      "company": "Brown–Forman",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000014693",
+      "index_added_date": "1982-10-31"
+    },
+    {
+      "symbol": "BG",
+      "company": "Bunge Global",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0001996862",
+      "index_added_date": "2023-03-15"
+    },
+    {
+      "symbol": "BXP",
+      "company": "BXP, Inc.",
+      "sector": "Real Estate",
+      "issuer_cik": "0001037540",
+      "index_added_date": "2006-04-03"
+    },
+    {
+      "symbol": "CHRW",
+      "company": "C.H. Robinson",
+      "sector": "Industrials",
+      "issuer_cik": "0001043277",
+      "index_added_date": "2007-03-02"
+    },
+    {
+      "symbol": "CDNS",
+      "company": "Cadence Design Systems",
+      "sector": "Information Technology",
+      "issuer_cik": "0000813672",
+      "index_added_date": "2017-09-18"
+    },
+    {
+      "symbol": "CPT",
+      "company": "Camden Property Trust",
+      "sector": "Real Estate",
+      "issuer_cik": "0000906345",
+      "index_added_date": "2022-04-04"
+    },
+    {
+      "symbol": "COF",
+      "company": "Capital One",
+      "sector": "Financials",
+      "issuer_cik": "0000927628",
+      "index_added_date": "1998-07-01"
+    },
+    {
+      "symbol": "CAH",
+      "company": "Cardinal Health",
+      "sector": "Health Care",
+      "issuer_cik": "0000721371",
+      "index_added_date": "1997-05-27"
+    },
+    {
+      "symbol": "CCL",
+      "company": "Carnival Corporation",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000815097",
+      "index_added_date": "1998-12-22"
+    },
+    {
+      "symbol": "CARR",
+      "company": "Carrier Global",
+      "sector": "Industrials",
+      "issuer_cik": "0001783180",
+      "index_added_date": "2020-04-03"
+    },
+    {
+      "symbol": "CVNA",
+      "company": "Carvana",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001690820",
+      "index_added_date": "2025-12-22"
+    },
+    {
+      "symbol": "CASY",
+      "company": "Casey's",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000726958",
+      "index_added_date": "2026-04-09"
+    },
+    {
+      "symbol": "CAT",
+      "company": "Caterpillar Inc.",
+      "sector": "Industrials",
+      "issuer_cik": "0000018230",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "CBOE",
+      "company": "Cboe Global Markets",
+      "sector": "Financials",
+      "issuer_cik": "0001374310",
+      "index_added_date": "2017-03-01"
+    },
+    {
+      "symbol": "CBRE",
+      "company": "CBRE Group",
+      "sector": "Real Estate",
+      "issuer_cik": "0001138118",
+      "index_added_date": "2006-11-10"
+    },
+    {
+      "symbol": "CDW",
+      "company": "CDW Corporation",
+      "sector": "Information Technology",
+      "issuer_cik": "0001402057",
+      "index_added_date": "2019-09-23"
+    },
+    {
+      "symbol": "COR",
+      "company": "Cencora",
+      "sector": "Health Care",
+      "issuer_cik": "0001140859",
+      "index_added_date": "2001-08-30"
+    },
+    {
+      "symbol": "CNC",
+      "company": "Centene Corporation",
+      "sector": "Health Care",
+      "issuer_cik": "0001071739",
+      "index_added_date": "2016-03-30"
+    },
+    {
+      "symbol": "CNP",
+      "company": "CenterPoint Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0001130310",
+      "index_added_date": "1985-07-31"
+    },
+    {
+      "symbol": "CF",
+      "company": "CF Industries",
+      "sector": "Materials",
+      "issuer_cik": "0001324404",
+      "index_added_date": "2008-08-27"
+    },
+    {
+      "symbol": "CRL",
+      "company": "Charles River Laboratories",
+      "sector": "Health Care",
+      "issuer_cik": "0001100682",
+      "index_added_date": "2021-05-14"
+    },
+    {
+      "symbol": "SCHW",
+      "company": "Charles Schwab Corporation",
+      "sector": "Financials",
+      "issuer_cik": "0000316709",
+      "index_added_date": "1997-06-02"
+    },
+    {
+      "symbol": "CHTR",
+      "company": "Charter Communications",
+      "sector": "Communication Services",
+      "issuer_cik": "0001091667",
+      "index_added_date": "2016-09-08"
+    },
+    {
+      "symbol": "CVX",
+      "company": "Chevron Corporation",
+      "sector": "Energy",
+      "issuer_cik": "0000093410",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "CMG",
+      "company": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001058090",
+      "index_added_date": "2011-04-28"
+    },
+    {
+      "symbol": "CB",
+      "company": "Chubb Limited",
+      "sector": "Financials",
+      "issuer_cik": "0000896159",
+      "index_added_date": "2010-07-15"
+    },
+    {
+      "symbol": "CHD",
+      "company": "Church & Dwight",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000313927",
+      "index_added_date": "2015-12-29"
+    },
+    {
+      "symbol": "CIEN",
+      "company": "Ciena",
+      "sector": "Information Technology",
+      "issuer_cik": "0000936395",
+      "index_added_date": "2026-02-09"
+    },
+    {
+      "symbol": "CI",
+      "company": "Cigna",
+      "sector": "Health Care",
+      "issuer_cik": "0001739940",
+      "index_added_date": "1976-06-30"
+    },
+    {
+      "symbol": "CINF",
+      "company": "Cincinnati Financial",
+      "sector": "Financials",
+      "issuer_cik": "0000020286",
+      "index_added_date": "1997-12-18"
+    },
+    {
+      "symbol": "CTAS",
+      "company": "Cintas",
+      "sector": "Industrials",
+      "issuer_cik": "0000723254",
+      "index_added_date": "2001-03-01"
+    },
+    {
+      "symbol": "CSCO",
+      "company": "Cisco",
+      "sector": "Information Technology",
+      "issuer_cik": "0000858877",
+      "index_added_date": "1993-12-01"
+    },
+    {
+      "symbol": "C",
+      "company": "Citigroup",
+      "sector": "Financials",
+      "issuer_cik": "0000831001",
+      "index_added_date": "1988-05-31"
+    },
+    {
+      "symbol": "CFG",
+      "company": "Citizens Financial Group",
+      "sector": "Financials",
+      "issuer_cik": "0000759944",
+      "index_added_date": "2016-01-29"
+    },
+    {
+      "symbol": "CLX",
+      "company": "Clorox",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000021076",
+      "index_added_date": "1969-03-31"
+    },
+    {
+      "symbol": "CME",
+      "company": "CME Group",
+      "sector": "Financials",
+      "issuer_cik": "0001156375",
+      "index_added_date": "2006-08-11"
+    },
+    {
+      "symbol": "CMS",
+      "company": "CMS Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0000811156",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "KO",
+      "company": "Coca-Cola Company (The)",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000021344",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "CTSH",
+      "company": "Cognizant",
+      "sector": "Information Technology",
+      "issuer_cik": "0001058290",
+      "index_added_date": "2006-11-17"
+    },
+    {
+      "symbol": "COHR",
+      "company": "Coherent Corp.",
+      "sector": "Information Technology",
+      "issuer_cik": "0000820318",
+      "index_added_date": "2026-03-23"
+    },
+    {
+      "symbol": "COIN",
+      "company": "Coinbase",
+      "sector": "Financials",
+      "issuer_cik": "0001679788",
+      "index_added_date": "2025-05-19"
+    },
+    {
+      "symbol": "CL",
+      "company": "Colgate-Palmolive",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000021665",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "CMCSA",
+      "company": "Comcast",
+      "sector": "Communication Services",
+      "issuer_cik": "0001166691",
+      "index_added_date": "2002-11-19"
+    },
+    {
+      "symbol": "FIX",
+      "company": "Comfort Systems USA",
+      "sector": "Industrials",
+      "issuer_cik": "0001035983",
+      "index_added_date": "2025-12-22"
+    },
+    {
+      "symbol": "COP",
+      "company": "ConocoPhillips",
+      "sector": "Energy",
+      "issuer_cik": "0001163165",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "ED",
+      "company": "Consolidated Edison",
+      "sector": "Utilities",
+      "issuer_cik": "0001047862",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "STZ",
+      "company": "Constellation Brands",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000016918",
+      "index_added_date": "2005-07-01"
+    },
+    {
+      "symbol": "CEG",
+      "company": "Constellation Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0001868275",
+      "index_added_date": "2022-02-02"
+    },
+    {
+      "symbol": "COO",
+      "company": "Cooper Companies (The)",
+      "sector": "Health Care",
+      "issuer_cik": "0000711404",
+      "index_added_date": "2016-09-23"
+    },
+    {
+      "symbol": "CPRT",
+      "company": "Copart",
+      "sector": "Industrials",
+      "issuer_cik": "0000900075",
+      "index_added_date": "2018-07-02"
+    },
+    {
+      "symbol": "GLW",
+      "company": "Corning Inc.",
+      "sector": "Information Technology",
+      "issuer_cik": "0000024741",
+      "index_added_date": "1995-02-27"
+    },
+    {
+      "symbol": "CPAY",
+      "company": "Corpay",
+      "sector": "Financials",
+      "issuer_cik": "0001175454",
+      "index_added_date": "2018-06-20"
+    },
+    {
+      "symbol": "CSGP",
+      "company": "CoStar Group",
+      "sector": "Real Estate",
+      "issuer_cik": "0001057352",
+      "index_added_date": "2022-09-19"
+    },
+    {
+      "symbol": "COST",
+      "company": "Costco",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000909832",
+      "index_added_date": "1993-10-01"
+    },
+    {
+      "symbol": "CRH",
+      "company": "CRH plc",
+      "sector": "Materials",
+      "issuer_cik": "0000849395",
+      "index_added_date": "2025-12-22"
+    },
+    {
+      "symbol": "CRWD",
+      "company": "CrowdStrike",
+      "sector": "Information Technology",
+      "issuer_cik": "0001535527",
+      "index_added_date": "2024-06-24"
+    },
+    {
+      "symbol": "CCI",
+      "company": "Crown Castle",
+      "sector": "Real Estate",
+      "issuer_cik": "0001051470",
+      "index_added_date": "2012-03-14"
+    },
+    {
+      "symbol": "CSX",
+      "company": "CSX Corporation",
+      "sector": "Industrials",
+      "issuer_cik": "0000277948",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "CMI",
+      "company": "Cummins",
+      "sector": "Industrials",
+      "issuer_cik": "0000026172",
+      "index_added_date": "1965-03-31"
+    },
+    {
+      "symbol": "CVS",
+      "company": "CVS Health",
+      "sector": "Health Care",
+      "issuer_cik": "0000064803",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "DHR",
+      "company": "Danaher Corporation",
+      "sector": "Health Care",
+      "issuer_cik": "0000313616",
+      "index_added_date": "1998-11-18"
+    },
+    {
+      "symbol": "DRI",
+      "company": "Darden Restaurants",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000940944",
+      "index_added_date": "1995-05-31"
+    },
+    {
+      "symbol": "DDOG",
+      "company": "Datadog",
+      "sector": "Information Technology",
+      "issuer_cik": "0001561550",
+      "index_added_date": "2025-07-09"
+    },
+    {
+      "symbol": "DVA",
+      "company": "DaVita",
+      "sector": "Health Care",
+      "issuer_cik": "0000927066",
+      "index_added_date": "2008-07-31"
+    },
+    {
+      "symbol": "DECK",
+      "company": "Deckers Brands",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000910521",
+      "index_added_date": "2024-03-18"
+    },
+    {
+      "symbol": "DE",
+      "company": "Deere & Company",
+      "sector": "Industrials",
+      "issuer_cik": "0000315189",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "DELL",
+      "company": "Dell Technologies",
+      "sector": "Information Technology",
+      "issuer_cik": "0001571996",
+      "index_added_date": "2024-09-23"
+    },
+    {
+      "symbol": "DAL",
+      "company": "Delta Air Lines",
+      "sector": "Industrials",
+      "issuer_cik": "0000027904",
+      "index_added_date": "2013-09-11"
+    },
+    {
+      "symbol": "DVN",
+      "company": "Devon Energy",
+      "sector": "Energy",
+      "issuer_cik": "0001090012",
+      "index_added_date": "2000-08-30"
+    },
+    {
+      "symbol": "DXCM",
+      "company": "Dexcom",
+      "sector": "Health Care",
+      "issuer_cik": "0001093557",
+      "index_added_date": "2020-05-12"
+    },
+    {
+      "symbol": "FANG",
+      "company": "Diamondback Energy",
+      "sector": "Energy",
+      "issuer_cik": "0001539838",
+      "index_added_date": "2018-12-03"
+    },
+    {
+      "symbol": "DLR",
+      "company": "Digital Realty",
+      "sector": "Real Estate",
+      "issuer_cik": "0001297996",
+      "index_added_date": "2016-05-18"
+    },
+    {
+      "symbol": "DG",
+      "company": "Dollar General",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000029534",
+      "index_added_date": "2012-12-03"
+    },
+    {
+      "symbol": "DLTR",
+      "company": "Dollar Tree",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000935703",
+      "index_added_date": "2011-12-19"
+    },
+    {
+      "symbol": "D",
+      "company": "Dominion Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0000715957",
+      "index_added_date": "2016-11-30"
+    },
+    {
+      "symbol": "DPZ",
+      "company": "Domino's",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001286681",
+      "index_added_date": "2020-05-12"
+    },
+    {
+      "symbol": "DASH",
+      "company": "DoorDash",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001792789",
+      "index_added_date": "2025-03-24"
+    },
+    {
+      "symbol": "DOV",
+      "company": "Dover Corporation",
+      "sector": "Industrials",
+      "issuer_cik": "0000029905",
+      "index_added_date": "1985-10-31"
+    },
+    {
+      "symbol": "DOW",
+      "company": "Dow Inc.",
+      "sector": "Materials",
+      "issuer_cik": "0001751788",
+      "index_added_date": "2019-04-01"
+    },
+    {
+      "symbol": "DHI",
+      "company": "D. R. Horton",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000882184",
+      "index_added_date": "2005-06-22"
+    },
+    {
+      "symbol": "DTE",
+      "company": "DTE Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0000936340",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "DUK",
+      "company": "Duke Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0001326160",
+      "index_added_date": "1976-06-30"
+    },
+    {
+      "symbol": "DD",
+      "company": "DuPont",
+      "sector": "Industrials",
+      "issuer_cik": "0001666700",
+      "index_added_date": "2019-06-03"
+    },
+    {
+      "symbol": "ETN",
+      "company": "Eaton Corporation",
+      "sector": "Industrials",
+      "issuer_cik": "0001551182",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "EBAY",
+      "company": "eBay Inc.",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001065088",
+      "index_added_date": "2002-07-22"
+    },
+    {
+      "symbol": "ECHO",
+      "company": "EchoStar",
+      "sector": "Communication Services",
+      "issuer_cik": "0001415404",
+      "index_added_date": "2026-03-23"
+    },
+    {
+      "symbol": "ECL",
+      "company": "Ecolab",
+      "sector": "Materials",
+      "issuer_cik": "0000031462",
+      "index_added_date": "1989-01-31"
+    },
+    {
+      "symbol": "EIX",
+      "company": "Edison International",
+      "sector": "Utilities",
+      "issuer_cik": "0000827052",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "EW",
+      "company": "Edwards Lifesciences",
+      "sector": "Health Care",
+      "issuer_cik": "0001099800",
+      "index_added_date": "2011-04-01"
+    },
+    {
+      "symbol": "ELV",
+      "company": "Elevance Health",
+      "sector": "Health Care",
+      "issuer_cik": "0001156039",
+      "index_added_date": "2002-07-25"
+    },
+    {
+      "symbol": "EME",
+      "company": "Emcor",
+      "sector": "Industrials",
+      "issuer_cik": "0000105634",
+      "index_added_date": "2025-09-22"
+    },
+    {
+      "symbol": "EMR",
+      "company": "Emerson Electric",
+      "sector": "Industrials",
+      "issuer_cik": "0000032604",
+      "index_added_date": "1965-03-31"
+    },
+    {
+      "symbol": "ETR",
+      "company": "Entergy",
+      "sector": "Utilities",
+      "issuer_cik": "0000065984",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "EOG",
+      "company": "EOG Resources",
+      "sector": "Energy",
+      "issuer_cik": "0000821189",
+      "index_added_date": "2000-11-02"
+    },
+    {
+      "symbol": "EQT",
+      "company": "EQT Corporation",
+      "sector": "Energy",
+      "issuer_cik": "0000033213",
+      "index_added_date": "2022-10-03"
+    },
+    {
+      "symbol": "EFX",
+      "company": "Equifax",
+      "sector": "Industrials",
+      "issuer_cik": "0000033185",
+      "index_added_date": "1997-06-19"
+    },
+    {
+      "symbol": "EQIX",
+      "company": "Equinix",
+      "sector": "Real Estate",
+      "issuer_cik": "0001101239",
+      "index_added_date": "2015-03-20"
+    },
+    {
+      "symbol": "ERIE",
+      "company": "Erie Indemnity",
+      "sector": "Financials",
+      "issuer_cik": "0000922621",
+      "index_added_date": "2024-09-23"
+    },
+    {
+      "symbol": "ESS",
+      "company": "Essex Property Trust",
+      "sector": "Real Estate",
+      "issuer_cik": "0000920522",
+      "index_added_date": "2014-04-02"
+    },
+    {
+      "symbol": "EL",
+      "company": "Estée Lauder Companies (The)",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0001001250",
+      "index_added_date": "2006-01-05"
+    },
+    {
+      "symbol": "EG",
+      "company": "Everest Group",
+      "sector": "Financials",
+      "issuer_cik": "0001095073",
+      "index_added_date": "2017-06-19"
+    },
+    {
+      "symbol": "EVRG",
+      "company": "Evergy",
+      "sector": "Utilities",
+      "issuer_cik": "0001711269",
+      "index_added_date": "2018-06-05"
+    },
+    {
+      "symbol": "P",
+      "company": "Everpure",
+      "sector": "Information Technology",
+      "issuer_cik": "0001474432",
+      "index_added_date": "2026-09-21"
+    },
+    {
+      "symbol": "ES",
+      "company": "Eversource Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0000072741",
+      "index_added_date": "2009-07-24"
+    },
+    {
+      "symbol": "EXC",
+      "company": "Exelon",
+      "sector": "Utilities",
+      "issuer_cik": "0001109357",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "EXE",
+      "company": "Expand Energy",
+      "sector": "Energy",
+      "issuer_cik": "0000895126",
+      "index_added_date": "2025-03-24"
+    },
+    {
+      "symbol": "EXPE",
+      "company": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001324424",
+      "index_added_date": "2007-10-02"
+    },
+    {
+      "symbol": "EXPD",
+      "company": "Expeditors International",
+      "sector": "Industrials",
+      "issuer_cik": "0000746515",
+      "index_added_date": "2007-10-10"
+    },
+    {
+      "symbol": "EXR",
+      "company": "Extra Space Storage",
+      "sector": "Real Estate",
+      "issuer_cik": "0001289490",
+      "index_added_date": "2016-01-19"
+    },
+    {
+      "symbol": "XOM",
+      "company": "ExxonMobil",
+      "sector": "Energy",
+      "issuer_cik": "0002115436",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "FFIV",
+      "company": "F5, Inc.",
+      "sector": "Information Technology",
+      "issuer_cik": "0001048695",
+      "index_added_date": "2010-12-20"
+    },
+    {
+      "symbol": "FDS",
+      "company": "FactSet",
+      "sector": "Financials",
+      "issuer_cik": "0001013237",
+      "index_added_date": "2021-12-20"
+    },
+    {
+      "symbol": "FICO",
+      "company": "Fair Isaac",
+      "sector": "Information Technology",
+      "issuer_cik": "0000814547",
+      "index_added_date": "2023-03-20"
+    },
+    {
+      "symbol": "FAST",
+      "company": "Fastenal",
+      "sector": "Industrials",
+      "issuer_cik": "0000815556",
+      "index_added_date": "2008-09-15"
+    },
+    {
+      "symbol": "FRT",
+      "company": "Federal Realty Investment Trust",
+      "sector": "Real Estate",
+      "issuer_cik": "0000034903",
+      "index_added_date": "2016-02-01"
+    },
+    {
+      "symbol": "FDX",
+      "company": "FedEx",
+      "sector": "Industrials",
+      "issuer_cik": "0001048911",
+      "index_added_date": "1980-12-31"
+    },
+    {
+      "symbol": "FDXF",
+      "company": "FedEx Freight",
+      "sector": "Industrials",
+      "issuer_cik": "0002082247",
+      "index_added_date": "2026-06-01"
+    },
+    {
+      "symbol": "FERG",
+      "company": "Ferguson Enterprises",
+      "sector": "Industrials",
+      "issuer_cik": "0002011641",
+      "index_added_date": "2026-08-05"
+    },
+    {
+      "symbol": "FIS",
+      "company": "Fidelity National Information Services",
+      "sector": "Financials",
+      "issuer_cik": "0001136893",
+      "index_added_date": "2006-11-10"
+    },
+    {
+      "symbol": "FITB",
+      "company": "Fifth Third Bancorp",
+      "sector": "Financials",
+      "issuer_cik": "0000035527",
+      "index_added_date": "1996-03-29"
+    },
+    {
+      "symbol": "FSLR",
+      "company": "First Solar",
+      "sector": "Information Technology",
+      "issuer_cik": "0001274494",
+      "index_added_date": "2022-12-19"
+    },
+    {
+      "symbol": "FE",
+      "company": "FirstEnergy",
+      "sector": "Utilities",
+      "issuer_cik": "0001031296",
+      "index_added_date": "1997-11-28"
+    },
+    {
+      "symbol": "FISV",
+      "company": "Fiserv",
+      "sector": "Financials",
+      "issuer_cik": "0000798354",
+      "index_added_date": "2001-04-02"
+    },
+    {
+      "symbol": "FLEX",
+      "company": "Flex Ltd.",
+      "sector": "Information Technology",
+      "issuer_cik": "0000866374",
+      "index_added_date": "2026-06-22"
+    },
+    {
+      "symbol": "F",
+      "company": "Ford Motor Company",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000037996",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "FTNT",
+      "company": "Fortinet",
+      "sector": "Information Technology",
+      "issuer_cik": "0001262039",
+      "index_added_date": "2018-10-11"
+    },
+    {
+      "symbol": "FTV",
+      "company": "Fortive",
+      "sector": "Industrials",
+      "issuer_cik": "0001659166",
+      "index_added_date": "2016-07-01"
+    },
+    {
+      "symbol": "FOXA",
+      "company": "Fox Corporation (Class A)",
+      "sector": "Communication Services",
+      "issuer_cik": "0001754301",
+      "index_added_date": "2019-03-19"
+    },
+    {
+      "symbol": "FOX",
+      "company": "Fox Corporation (Class B)",
+      "sector": "Communication Services",
+      "issuer_cik": "0001754301",
+      "index_added_date": "2019-03-19"
+    },
+    {
+      "symbol": "BEN",
+      "company": "Franklin Resources",
+      "sector": "Financials",
+      "issuer_cik": "0000038777",
+      "index_added_date": "1998-04-30"
+    },
+    {
+      "symbol": "FCX",
+      "company": "Freeport-McMoRan",
+      "sector": "Materials",
+      "issuer_cik": "0000831259",
+      "index_added_date": "2011-07-01"
+    },
+    {
+      "symbol": "GRMN",
+      "company": "Garmin",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001121788",
+      "index_added_date": "2012-12-12"
+    },
+    {
+      "symbol": "IT",
+      "company": "Gartner",
+      "sector": "Information Technology",
+      "issuer_cik": "0000749251",
+      "index_added_date": "2017-04-05"
+    },
+    {
+      "symbol": "GE",
+      "company": "GE Aerospace",
+      "sector": "Industrials",
+      "issuer_cik": "0000040545",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "GEHC",
+      "company": "GE HealthCare",
+      "sector": "Health Care",
+      "issuer_cik": "0001932393",
+      "index_added_date": "2023-01-04"
+    },
+    {
+      "symbol": "GEV",
+      "company": "GE Vernova",
+      "sector": "Industrials",
+      "issuer_cik": "0001996810",
+      "index_added_date": "2024-04-02"
+    },
+    {
+      "symbol": "GEN",
+      "company": "Gen Digital",
+      "sector": "Information Technology",
+      "issuer_cik": "0000849399",
+      "index_added_date": "2003-03-25"
+    },
+    {
+      "symbol": "GNRC",
+      "company": "Generac",
+      "sector": "Industrials",
+      "issuer_cik": "0001474735",
+      "index_added_date": "2021-03-22"
+    },
+    {
+      "symbol": "GD",
+      "company": "General Dynamics",
+      "sector": "Industrials",
+      "issuer_cik": "0000040533",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "GIS",
+      "company": "General Mills",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000040704",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "GM",
+      "company": "General Motors",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001467858",
+      "index_added_date": "2013-06-06"
+    },
+    {
+      "symbol": "GPC",
+      "company": "Genuine Parts Company",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000040987",
+      "index_added_date": "1973-12-31"
+    },
+    {
+      "symbol": "GILD",
+      "company": "Gilead Sciences",
+      "sector": "Health Care",
+      "issuer_cik": "0000882095",
+      "index_added_date": "2004-07-01"
+    },
+    {
+      "symbol": "GPN",
+      "company": "Global Payments",
+      "sector": "Financials",
+      "issuer_cik": "0001123360",
+      "index_added_date": "2016-04-25"
+    },
+    {
+      "symbol": "GL",
+      "company": "Globe Life",
+      "sector": "Financials",
+      "issuer_cik": "0000320335",
+      "index_added_date": "1989-04-30"
+    },
+    {
+      "symbol": "GDDY",
+      "company": "GoDaddy",
+      "sector": "Information Technology",
+      "issuer_cik": "0001609711",
+      "index_added_date": "2024-06-24"
+    },
+    {
+      "symbol": "GS",
+      "company": "Goldman Sachs",
+      "sector": "Financials",
+      "issuer_cik": "0000886982",
+      "index_added_date": "2002-07-22"
+    },
+    {
+      "symbol": "HAL",
+      "company": "Halliburton",
+      "sector": "Energy",
+      "issuer_cik": "0000045012",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "HIG",
+      "company": "Hartford (The)",
+      "sector": "Financials",
+      "issuer_cik": "0000874766",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "HAS",
+      "company": "Hasbro",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000046080",
+      "index_added_date": "1984-09-30"
+    },
+    {
+      "symbol": "HCA",
+      "company": "HCA Healthcare",
+      "sector": "Health Care",
+      "issuer_cik": "0000860730",
+      "index_added_date": "2015-01-27"
+    },
+    {
+      "symbol": "DOC",
+      "company": "Healthpeak Properties",
+      "sector": "Real Estate",
+      "issuer_cik": "0000765880",
+      "index_added_date": "2008-03-31"
+    },
+    {
+      "symbol": "HSIC",
+      "company": "Henry Schein",
+      "sector": "Health Care",
+      "issuer_cik": "0001000228",
+      "index_added_date": "2015-03-17"
+    },
+    {
+      "symbol": "HSY",
+      "company": "Hershey Company (The)",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000047111",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "HPE",
+      "company": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "issuer_cik": "0001645590",
+      "index_added_date": "2015-11-02"
+    },
+    {
+      "symbol": "HLT",
+      "company": "Hilton Worldwide",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001585689",
+      "index_added_date": "2017-06-19"
+    },
+    {
+      "symbol": "HD",
+      "company": "Home Depot (The)",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000354950",
+      "index_added_date": "1988-03-31"
+    },
+    {
+      "symbol": "HONA",
+      "company": "Honeywell Aerospace",
+      "sector": "Industrials",
+      "issuer_cik": "0002089271",
+      "index_added_date": "2026-06-29"
+    },
+    {
+      "symbol": "HON",
+      "company": "Honeywell Technologies",
+      "sector": "Industrials",
+      "issuer_cik": "0000773840",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "HRL",
+      "company": "Hormel Foods",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000048465",
+      "index_added_date": "2009-03-04"
+    },
+    {
+      "symbol": "HST",
+      "company": "Host Hotels & Resorts",
+      "sector": "Real Estate",
+      "issuer_cik": "0001070750",
+      "index_added_date": "2007-03-20"
+    },
+    {
+      "symbol": "HWM",
+      "company": "Howmet Aerospace",
+      "sector": "Industrials",
+      "issuer_cik": "0000004281",
+      "index_added_date": "2016-10-21"
+    },
+    {
+      "symbol": "HPQ",
+      "company": "HP Inc.",
+      "sector": "Information Technology",
+      "issuer_cik": "0000047217",
+      "index_added_date": "1974-12-31"
+    },
+    {
+      "symbol": "HUBB",
+      "company": "Hubbell Incorporated",
+      "sector": "Industrials",
+      "issuer_cik": "0000048898",
+      "index_added_date": "2023-10-18"
+    },
+    {
+      "symbol": "HUM",
+      "company": "Humana",
+      "sector": "Health Care",
+      "issuer_cik": "0000049071",
+      "index_added_date": "2012-12-10"
+    },
+    {
+      "symbol": "HBAN",
+      "company": "Huntington Bancshares",
+      "sector": "Financials",
+      "issuer_cik": "0000049196",
+      "index_added_date": "1997-08-28"
+    },
+    {
+      "symbol": "HII",
+      "company": "Huntington Ingalls Industries",
+      "sector": "Industrials",
+      "issuer_cik": "0001501585",
+      "index_added_date": "2018-01-03"
+    },
+    {
+      "symbol": "IBM",
+      "company": "IBM",
+      "sector": "Information Technology",
+      "issuer_cik": "0000051143",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "IEX",
+      "company": "IDEX Corporation",
+      "sector": "Industrials",
+      "issuer_cik": "0000832101",
+      "index_added_date": "2019-08-09"
+    },
+    {
+      "symbol": "IDXX",
+      "company": "Idexx Laboratories",
+      "sector": "Health Care",
+      "issuer_cik": "0000874716",
+      "index_added_date": "2017-01-05"
+    },
+    {
+      "symbol": "ITW",
+      "company": "Illinois Tool Works",
+      "sector": "Industrials",
+      "issuer_cik": "0000049826",
+      "index_added_date": "1986-02-28"
+    },
+    {
+      "symbol": "ILMN",
+      "company": "Illumina, Inc.",
+      "sector": "Health Care",
+      "issuer_cik": "0001110803",
+      "index_added_date": "2026-09-21"
+    },
+    {
+      "symbol": "INCY",
+      "company": "Incyte",
+      "sector": "Health Care",
+      "issuer_cik": "0000879169",
+      "index_added_date": "2017-02-28"
+    },
+    {
+      "symbol": "IR",
+      "company": "Ingersoll Rand",
+      "sector": "Industrials",
+      "issuer_cik": "0001699150",
+      "index_added_date": "2020-03-03"
+    },
+    {
+      "symbol": "PODD",
+      "company": "Insulet Corporation",
+      "sector": "Health Care",
+      "issuer_cik": "0001145197",
+      "index_added_date": "2023-03-15"
+    },
+    {
+      "symbol": "INTC",
+      "company": "Intel",
+      "sector": "Information Technology",
+      "issuer_cik": "0000050863",
+      "index_added_date": "1976-12-31"
+    },
+    {
+      "symbol": "IBKR",
+      "company": "Interactive Brokers",
+      "sector": "Financials",
+      "issuer_cik": "0001381197",
+      "index_added_date": "2025-08-28"
+    },
+    {
+      "symbol": "ICE",
+      "company": "Intercontinental Exchange",
+      "sector": "Financials",
+      "issuer_cik": "0001571949",
+      "index_added_date": "2007-09-26"
+    },
+    {
+      "symbol": "IFF",
+      "company": "International Flavors & Fragrances",
+      "sector": "Materials",
+      "issuer_cik": "0000051253",
+      "index_added_date": "1976-03-31"
+    },
+    {
+      "symbol": "IP",
+      "company": "International Paper",
+      "sector": "Materials",
+      "issuer_cik": "0000051434",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "INTU",
+      "company": "Intuit",
+      "sector": "Information Technology",
+      "issuer_cik": "0000896878",
+      "index_added_date": "2000-12-05"
+    },
+    {
+      "symbol": "ISRG",
+      "company": "Intuitive Surgical",
+      "sector": "Health Care",
+      "issuer_cik": "0001035267",
+      "index_added_date": "2008-06-02"
+    },
+    {
+      "symbol": "IVZ",
+      "company": "Invesco",
+      "sector": "Financials",
+      "issuer_cik": "0000914208",
+      "index_added_date": "2008-08-21"
+    },
+    {
+      "symbol": "INVH",
+      "company": "Invitation Homes",
+      "sector": "Real Estate",
+      "issuer_cik": "0001687229",
+      "index_added_date": "2022-09-19"
+    },
+    {
+      "symbol": "IQV",
+      "company": "IQVIA",
+      "sector": "Health Care",
+      "issuer_cik": "0001478242",
+      "index_added_date": "2017-08-29"
+    },
+    {
+      "symbol": "IRM",
+      "company": "Iron Mountain",
+      "sector": "Real Estate",
+      "issuer_cik": "0001020569",
+      "index_added_date": "2009-01-06"
+    },
+    {
+      "symbol": "JBHT",
+      "company": "J.B. Hunt",
+      "sector": "Industrials",
+      "issuer_cik": "0000728535",
+      "index_added_date": "2015-07-01"
+    },
+    {
+      "symbol": "JBL",
+      "company": "Jabil",
+      "sector": "Information Technology",
+      "issuer_cik": "0000898293",
+      "index_added_date": "2023-12-18"
+    },
+    {
+      "symbol": "JKHY",
+      "company": "Jack Henry & Associates",
+      "sector": "Financials",
+      "issuer_cik": "0000779152",
+      "index_added_date": "2018-11-13"
+    },
+    {
+      "symbol": "J",
+      "company": "Jacobs Solutions",
+      "sector": "Industrials",
+      "issuer_cik": "0000052988",
+      "index_added_date": "2007-10-26"
+    },
+    {
+      "symbol": "JNJ",
+      "company": "Johnson & Johnson",
+      "sector": "Health Care",
+      "issuer_cik": "0000200406",
+      "index_added_date": "1973-06-30"
+    },
+    {
+      "symbol": "JCI",
+      "company": "Johnson Controls",
+      "sector": "Industrials",
+      "issuer_cik": "0000833444",
+      "index_added_date": "2010-08-27"
+    },
+    {
+      "symbol": "JPM",
+      "company": "JPMorgan Chase",
+      "sector": "Financials",
+      "issuer_cik": "0000019617",
+      "index_added_date": "1975-06-30"
+    },
+    {
+      "symbol": "KVUE",
+      "company": "Kenvue",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0001944048",
+      "index_added_date": "2023-08-25"
+    },
+    {
+      "symbol": "KDP",
+      "company": "Keurig Dr Pepper",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0001418135",
+      "index_added_date": "2022-06-21"
+    },
+    {
+      "symbol": "KEY",
+      "company": "KeyCorp",
+      "sector": "Financials",
+      "issuer_cik": "0000091576",
+      "index_added_date": "1994-03-01"
+    },
+    {
+      "symbol": "KEYS",
+      "company": "Keysight Technologies",
+      "sector": "Information Technology",
+      "issuer_cik": "0001601046",
+      "index_added_date": "2018-11-06"
+    },
+    {
+      "symbol": "KMB",
+      "company": "Kimberly-Clark",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000055785",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "KIM",
+      "company": "Kimco Realty",
+      "sector": "Real Estate",
+      "issuer_cik": "0000879101",
+      "index_added_date": "2006-04-04"
+    },
+    {
+      "symbol": "KMI",
+      "company": "Kinder Morgan",
+      "sector": "Energy",
+      "issuer_cik": "0001506307",
+      "index_added_date": "2012-05-25"
+    },
+    {
+      "symbol": "KKR",
+      "company": "KKR & Co.",
+      "sector": "Financials",
+      "issuer_cik": "0001404912",
+      "index_added_date": "2024-06-24"
+    },
+    {
+      "symbol": "KLAC",
+      "company": "KLA Corporation",
+      "sector": "Information Technology",
+      "issuer_cik": "0000319201",
+      "index_added_date": "1997-09-30"
+    },
+    {
+      "symbol": "KHC",
+      "company": "Kraft Heinz",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0001637459",
+      "index_added_date": "2015-07-06"
+    },
+    {
+      "symbol": "KR",
+      "company": "Kroger",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000056873",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "LHX",
+      "company": "L3Harris",
+      "sector": "Industrials",
+      "issuer_cik": "0000202058",
+      "index_added_date": "2008-09-22"
+    },
+    {
+      "symbol": "LH",
+      "company": "Labcorp",
+      "sector": "Health Care",
+      "issuer_cik": "0000920148",
+      "index_added_date": "2004-11-01"
+    },
+    {
+      "symbol": "LRCX",
+      "company": "Lam Research",
+      "sector": "Information Technology",
+      "issuer_cik": "0000707549",
+      "index_added_date": "2012-06-29"
+    },
+    {
+      "symbol": "LVS",
+      "company": "Las Vegas Sands",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001300514",
+      "index_added_date": "2019-10-03"
+    },
+    {
+      "symbol": "LDOS",
+      "company": "Leidos",
+      "sector": "Industrials",
+      "issuer_cik": "0001336920",
+      "index_added_date": "2019-08-09"
+    },
+    {
+      "symbol": "LEN",
+      "company": "Lennar",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000920760",
+      "index_added_date": "2005-10-04"
+    },
+    {
+      "symbol": "LII",
+      "company": "Lennox International",
+      "sector": "Industrials",
+      "issuer_cik": "0001069202",
+      "index_added_date": "2024-12-23"
+    },
+    {
+      "symbol": "LLY",
+      "company": "Lilly (Eli)",
+      "sector": "Health Care",
+      "issuer_cik": "0000059478",
+      "index_added_date": "1970-12-31"
+    },
+    {
+      "symbol": "LIN",
+      "company": "Linde plc",
+      "sector": "Materials",
+      "issuer_cik": "0001707925",
+      "index_added_date": "1992-07-01"
+    },
+    {
+      "symbol": "LYV",
+      "company": "Live Nation Entertainment",
+      "sector": "Communication Services",
+      "issuer_cik": "0001335258",
+      "index_added_date": "2019-12-23"
+    },
+    {
+      "symbol": "LMT",
+      "company": "Lockheed Martin",
+      "sector": "Industrials",
+      "issuer_cik": "0000936468",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "L",
+      "company": "Loews Corporation",
+      "sector": "Financials",
+      "issuer_cik": "0000060086",
+      "index_added_date": "1995-05-31"
+    },
+    {
+      "symbol": "LOW",
+      "company": "Lowe's",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000060667",
+      "index_added_date": "1984-02-29"
+    },
+    {
+      "symbol": "LULU",
+      "company": "Lululemon Athletica",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001397187",
+      "index_added_date": "2023-10-18"
+    },
+    {
+      "symbol": "LITE",
+      "company": "Lumentum",
+      "sector": "Information Technology",
+      "issuer_cik": "0001633978",
+      "index_added_date": "2026-03-23"
+    },
+    {
+      "symbol": "LYB",
+      "company": "LyondellBasell",
+      "sector": "Materials",
+      "issuer_cik": "0001489393",
+      "index_added_date": "2012-09-05"
+    },
+    {
+      "symbol": "MTB",
+      "company": "M&T Bank",
+      "sector": "Financials",
+      "issuer_cik": "0000036270",
+      "index_added_date": "2004-02-23"
+    },
+    {
+      "symbol": "MPC",
+      "company": "Marathon Petroleum",
+      "sector": "Energy",
+      "issuer_cik": "0001510295",
+      "index_added_date": "2011-07-01"
+    },
+    {
+      "symbol": "MAR",
+      "company": "Marriott International",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001048286",
+      "index_added_date": "1998-05-29"
+    },
+    {
+      "symbol": "MRSH",
+      "company": "Marsh McLennan",
+      "sector": "Financials",
+      "issuer_cik": "0000062709",
+      "index_added_date": "1987-08-31"
+    },
+    {
+      "symbol": "MLM",
+      "company": "Martin Marietta Materials",
+      "sector": "Materials",
+      "issuer_cik": "0000916076",
+      "index_added_date": "2014-07-02"
+    },
+    {
+      "symbol": "MRVL",
+      "company": "Marvell Technology",
+      "sector": "Information Technology",
+      "issuer_cik": "0001835632",
+      "index_added_date": "2026-06-22"
+    },
+    {
+      "symbol": "MAS",
+      "company": "Masco",
+      "sector": "Industrials",
+      "issuer_cik": "0000062996",
+      "index_added_date": "1981-06-30"
+    },
+    {
+      "symbol": "MA",
+      "company": "Mastercard",
+      "sector": "Financials",
+      "issuer_cik": "0001141391",
+      "index_added_date": "2008-07-18"
+    },
+    {
+      "symbol": "MKC",
+      "company": "McCormick & Company",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000063754",
+      "index_added_date": "2003-03-20"
+    },
+    {
+      "symbol": "MCD",
+      "company": "McDonald's",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000063908",
+      "index_added_date": "1970-06-30"
+    },
+    {
+      "symbol": "MCK",
+      "company": "McKesson",
+      "sector": "Health Care",
+      "issuer_cik": "0000927653",
+      "index_added_date": "1999-01-13"
+    },
+    {
+      "symbol": "MDT",
+      "company": "Medtronic",
+      "sector": "Health Care",
+      "issuer_cik": "0001613103",
+      "index_added_date": "1986-10-31"
+    },
+    {
+      "symbol": "MRK",
+      "company": "Merck & Co.",
+      "sector": "Health Care",
+      "issuer_cik": "0000310158",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "META",
+      "company": "Meta Platforms",
+      "sector": "Communication Services",
+      "issuer_cik": "0001326801",
+      "index_added_date": "2013-12-23"
+    },
+    {
+      "symbol": "MET",
+      "company": "MetLife",
+      "sector": "Financials",
+      "issuer_cik": "0001099219",
+      "index_added_date": "2000-12-11"
+    },
+    {
+      "symbol": "MTD",
+      "company": "Mettler Toledo",
+      "sector": "Health Care",
+      "issuer_cik": "0001037646",
+      "index_added_date": "2016-09-06"
+    },
+    {
+      "symbol": "MGM",
+      "company": "MGM Resorts",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000789570",
+      "index_added_date": "2017-07-26"
+    },
+    {
+      "symbol": "MCHP",
+      "company": "Microchip Technology",
+      "sector": "Information Technology",
+      "issuer_cik": "0000827054",
+      "index_added_date": "2007-09-07"
+    },
+    {
+      "symbol": "MU",
+      "company": "Micron Technology",
+      "sector": "Information Technology",
+      "issuer_cik": "0000723125",
+      "index_added_date": "1994-09-27"
+    },
+    {
+      "symbol": "MSFT",
+      "company": "Microsoft",
+      "sector": "Information Technology",
+      "issuer_cik": "0000789019",
+      "index_added_date": "1994-06-01"
+    },
+    {
+      "symbol": "MAA",
+      "company": "Mid-America Apartment Communities",
+      "sector": "Real Estate",
+      "issuer_cik": "0000912595",
+      "index_added_date": "2016-12-02"
+    },
+    {
+      "symbol": "MRNA",
+      "company": "Moderna",
+      "sector": "Health Care",
+      "issuer_cik": "0001682852",
+      "index_added_date": "2021-07-21"
+    },
+    {
+      "symbol": "MDLZ",
+      "company": "Mondelez International",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0001103982",
+      "index_added_date": "2012-10-02"
+    },
+    {
+      "symbol": "MPWR",
+      "company": "Monolithic Power Systems",
+      "sector": "Information Technology",
+      "issuer_cik": "0001280452",
+      "index_added_date": "2021-02-12"
+    },
+    {
+      "symbol": "MNST",
+      "company": "Monster Beverage",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000865752",
+      "index_added_date": "2012-06-28"
+    },
+    {
+      "symbol": "MCO",
+      "company": "Moody's Corporation",
+      "sector": "Financials",
+      "issuer_cik": "0001059556",
+      "index_added_date": "1998-07-01"
+    },
+    {
+      "symbol": "MS",
+      "company": "Morgan Stanley",
+      "sector": "Financials",
+      "issuer_cik": "0000895421",
+      "index_added_date": "1993-07-29"
+    },
+    {
+      "symbol": "MOS",
+      "company": "Mosaic Company (The)",
+      "sector": "Materials",
+      "issuer_cik": "0001285785",
+      "index_added_date": "2011-09-26"
+    },
+    {
+      "symbol": "MSI",
+      "company": "Motorola Solutions",
+      "sector": "Information Technology",
+      "issuer_cik": "0000068505",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "MSCI",
+      "company": "MSCI",
+      "sector": "Financials",
+      "issuer_cik": "0001408198",
+      "index_added_date": "2018-04-04"
+    },
+    {
+      "symbol": "NDAQ",
+      "company": "Nasdaq, Inc.",
+      "sector": "Financials",
+      "issuer_cik": "0001120193",
+      "index_added_date": "2008-10-22"
+    },
+    {
+      "symbol": "NTAP",
+      "company": "NetApp",
+      "sector": "Information Technology",
+      "issuer_cik": "0001002047",
+      "index_added_date": "1999-06-25"
+    },
+    {
+      "symbol": "NFLX",
+      "company": "Netflix",
+      "sector": "Communication Services",
+      "issuer_cik": "0001065280",
+      "index_added_date": "2010-12-20"
+    },
+    {
+      "symbol": "NEM",
+      "company": "Newmont",
+      "sector": "Materials",
+      "issuer_cik": "0001164727",
+      "index_added_date": "1969-06-30"
+    },
+    {
+      "symbol": "NWSA",
+      "company": "News Corp (Class A)",
+      "sector": "Communication Services",
+      "issuer_cik": "0001564708",
+      "index_added_date": "2013-08-01"
+    },
+    {
+      "symbol": "NWS",
+      "company": "News Corp (Class B)",
+      "sector": "Communication Services",
+      "issuer_cik": "0001564708",
+      "index_added_date": "2015-09-18"
+    },
+    {
+      "symbol": "NEE",
+      "company": "NextEra Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0000753308",
+      "index_added_date": "1976-06-30"
+    },
+    {
+      "symbol": "NKE",
+      "company": "Nike, Inc.",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000320187",
+      "index_added_date": "1988-11-30"
+    },
+    {
+      "symbol": "NI",
+      "company": "NiSource",
+      "sector": "Utilities",
+      "issuer_cik": "0001111711",
+      "index_added_date": "2000-11-02"
+    },
+    {
+      "symbol": "NDSN",
+      "company": "Nordson Corporation",
+      "sector": "Industrials",
+      "issuer_cik": "0000072331",
+      "index_added_date": "2022-02-15"
+    },
+    {
+      "symbol": "NSC",
+      "company": "Norfolk Southern",
+      "sector": "Industrials",
+      "issuer_cik": "0000702165",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "NTRS",
+      "company": "Northern Trust",
+      "sector": "Financials",
+      "issuer_cik": "0000073124",
+      "index_added_date": "1998-01-30"
+    },
+    {
+      "symbol": "NOC",
+      "company": "Northrop Grumman",
+      "sector": "Industrials",
+      "issuer_cik": "0001133421",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "NCLH",
+      "company": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001513761",
+      "index_added_date": "2017-10-13"
+    },
+    {
+      "symbol": "NRG",
+      "company": "NRG Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0001013871",
+      "index_added_date": "2010-01-29"
+    },
+    {
+      "symbol": "NUE",
+      "company": "Nucor",
+      "sector": "Materials",
+      "issuer_cik": "0000073309",
+      "index_added_date": "1985-04-30"
+    },
+    {
+      "symbol": "NVDA",
+      "company": "Nvidia",
+      "sector": "Information Technology",
+      "issuer_cik": "0001045810",
+      "index_added_date": "2001-11-30"
+    },
+    {
+      "symbol": "NVR",
+      "company": "NVR, Inc.",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000906163",
+      "index_added_date": "2019-09-26"
+    },
+    {
+      "symbol": "NXPI",
+      "company": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "issuer_cik": "0001413447",
+      "index_added_date": "2021-03-22"
+    },
+    {
+      "symbol": "ORLY",
+      "company": "O'Reilly Automotive",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000898173",
+      "index_added_date": "2009-03-27"
+    },
+    {
+      "symbol": "OXY",
+      "company": "Occidental Petroleum",
+      "sector": "Energy",
+      "issuer_cik": "0000797468",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "ODFL",
+      "company": "Old Dominion",
+      "sector": "Industrials",
+      "issuer_cik": "0000878927",
+      "index_added_date": "2019-12-09"
+    },
+    {
+      "symbol": "OMC",
+      "company": "Omnicom Group",
+      "sector": "Communication Services",
+      "issuer_cik": "0000029989",
+      "index_added_date": "1997-12-31"
+    },
+    {
+      "symbol": "ON",
+      "company": "ON Semiconductor",
+      "sector": "Information Technology",
+      "issuer_cik": "0001097864",
+      "index_added_date": "2022-06-21"
+    },
+    {
+      "symbol": "OKE",
+      "company": "Oneok",
+      "sector": "Energy",
+      "issuer_cik": "0001039684",
+      "index_added_date": "2010-03-15"
+    },
+    {
+      "symbol": "ORCL",
+      "company": "Oracle Corporation",
+      "sector": "Information Technology",
+      "issuer_cik": "0001341439",
+      "index_added_date": "1989-08-31"
+    },
+    {
+      "symbol": "OTIS",
+      "company": "Otis Worldwide",
+      "sector": "Industrials",
+      "issuer_cik": "0001781335",
+      "index_added_date": "2020-04-03"
+    },
+    {
+      "symbol": "PCAR",
+      "company": "Paccar",
+      "sector": "Industrials",
+      "issuer_cik": "0000075362",
+      "index_added_date": "1980-12-31"
+    },
+    {
+      "symbol": "PKG",
+      "company": "Packaging Corporation of America",
+      "sector": "Materials",
+      "issuer_cik": "0000075677",
+      "index_added_date": "2017-07-26"
+    },
+    {
+      "symbol": "PLTR",
+      "company": "Palantir Technologies",
+      "sector": "Information Technology",
+      "issuer_cik": "0001321655",
+      "index_added_date": "2024-09-23"
+    },
+    {
+      "symbol": "PANW",
+      "company": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "issuer_cik": "0001327567",
+      "index_added_date": "2023-06-20"
+    },
+    {
+      "symbol": "PH",
+      "company": "Parker Hannifin",
+      "sector": "Industrials",
+      "issuer_cik": "0000076334",
+      "index_added_date": "1985-11-30"
+    },
+    {
+      "symbol": "PAYX",
+      "company": "Paychex",
+      "sector": "Industrials",
+      "issuer_cik": "0000723531",
+      "index_added_date": "1998-10-01"
+    },
+    {
+      "symbol": "PYPL",
+      "company": "PayPal",
+      "sector": "Financials",
+      "issuer_cik": "0001633917",
+      "index_added_date": "2015-07-20"
+    },
+    {
+      "symbol": "PNR",
+      "company": "Pentair",
+      "sector": "Industrials",
+      "issuer_cik": "0000077360",
+      "index_added_date": "2012-10-01"
+    },
+    {
+      "symbol": "PEP",
+      "company": "PepsiCo",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000077476",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "PFE",
+      "company": "Pfizer",
+      "sector": "Health Care",
+      "issuer_cik": "0000078003",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "PCG",
+      "company": "PG&E Corporation",
+      "sector": "Utilities",
+      "issuer_cik": "0001004980",
+      "index_added_date": "2022-10-03"
+    },
+    {
+      "symbol": "PM",
+      "company": "Philip Morris International",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0001413329",
+      "index_added_date": "2008-03-31"
+    },
+    {
+      "symbol": "PSX",
+      "company": "Phillips 66",
+      "sector": "Energy",
+      "issuer_cik": "0001534701",
+      "index_added_date": "2012-05-01"
+    },
+    {
+      "symbol": "PNW",
+      "company": "Pinnacle West Capital",
+      "sector": "Utilities",
+      "issuer_cik": "0000764622",
+      "index_added_date": "1999-10-04"
+    },
+    {
+      "symbol": "PNC",
+      "company": "PNC Financial Services",
+      "sector": "Financials",
+      "issuer_cik": "0000713676",
+      "index_added_date": "1988-04-30"
+    },
+    {
+      "symbol": "PPG",
+      "company": "PPG Industries",
+      "sector": "Materials",
+      "issuer_cik": "0000079879",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "PPL",
+      "company": "PPL Corporation",
+      "sector": "Utilities",
+      "issuer_cik": "0000922224",
+      "index_added_date": "2001-10-01"
+    },
+    {
+      "symbol": "PFG",
+      "company": "Principal Financial Group",
+      "sector": "Financials",
+      "issuer_cik": "0001126328",
+      "index_added_date": "2002-07-22"
+    },
+    {
+      "symbol": "PG",
+      "company": "Procter & Gamble",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000080424",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "PGR",
+      "company": "Progressive Corporation",
+      "sector": "Financials",
+      "issuer_cik": "0000080661",
+      "index_added_date": "1997-08-04"
+    },
+    {
+      "symbol": "PLD",
+      "company": "Prologis",
+      "sector": "Real Estate",
+      "issuer_cik": "0001045609",
+      "index_added_date": "2003-07-17"
+    },
+    {
+      "symbol": "PRU",
+      "company": "Prudential Financial",
+      "sector": "Financials",
+      "issuer_cik": "0001137774",
+      "index_added_date": "2002-07-22"
+    },
+    {
+      "symbol": "PTC",
+      "company": "PTC Inc.",
+      "sector": "Information Technology",
+      "issuer_cik": "0000857005",
+      "index_added_date": "2021-04-20"
+    },
+    {
+      "symbol": "PEG",
+      "company": "Public Service Enterprise Group",
+      "sector": "Utilities",
+      "issuer_cik": "0000788784",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "PSA",
+      "company": "Public Storage",
+      "sector": "Real Estate",
+      "issuer_cik": "0001393311",
+      "index_added_date": "2005-08-19"
+    },
+    {
+      "symbol": "PHM",
+      "company": "PulteGroup",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000822416",
+      "index_added_date": "1984-04-30"
+    },
+    {
+      "symbol": "Q",
+      "company": "Qnity Electronics",
+      "sector": "Information Technology",
+      "issuer_cik": "0002058873",
+      "index_added_date": "2025-11-03"
+    },
+    {
+      "symbol": "QCOM",
+      "company": "Qualcomm",
+      "sector": "Information Technology",
+      "issuer_cik": "0000804328",
+      "index_added_date": "1999-07-22"
+    },
+    {
+      "symbol": "PWR",
+      "company": "Quanta Services",
+      "sector": "Industrials",
+      "issuer_cik": "0001050915",
+      "index_added_date": "2009-07-01"
+    },
+    {
+      "symbol": "DGX",
+      "company": "Quest Diagnostics",
+      "sector": "Health Care",
+      "issuer_cik": "0001022079",
+      "index_added_date": "2002-12-12"
+    },
+    {
+      "symbol": "RL",
+      "company": "Ralph Lauren Corporation",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001037038",
+      "index_added_date": "2007-02-02"
+    },
+    {
+      "symbol": "RJF",
+      "company": "Raymond James Financial",
+      "sector": "Financials",
+      "issuer_cik": "0000720005",
+      "index_added_date": "2017-03-20"
+    },
+    {
+      "symbol": "RDDT",
+      "company": "Reddit",
+      "sector": "Communication Services",
+      "issuer_cik": "0001713445",
+      "index_added_date": "2026-08-18"
+    },
+    {
+      "symbol": "O",
+      "company": "Realty Income",
+      "sector": "Real Estate",
+      "issuer_cik": "0000726728",
+      "index_added_date": "2015-04-07"
+    },
+    {
+      "symbol": "REG",
+      "company": "Regency Centers",
+      "sector": "Real Estate",
+      "issuer_cik": "0000910606",
+      "index_added_date": "2017-03-02"
+    },
+    {
+      "symbol": "REGN",
+      "company": "Regeneron Pharmaceuticals",
+      "sector": "Health Care",
+      "issuer_cik": "0000872589",
+      "index_added_date": "2013-05-01"
+    },
+    {
+      "symbol": "RF",
+      "company": "Regions Financial Corporation",
+      "sector": "Financials",
+      "issuer_cik": "0001281761",
+      "index_added_date": "1998-08-28"
+    },
+    {
+      "symbol": "RSG",
+      "company": "Republic Services",
+      "sector": "Industrials",
+      "issuer_cik": "0001060391",
+      "index_added_date": "2008-12-05"
+    },
+    {
+      "symbol": "RMD",
+      "company": "ResMed",
+      "sector": "Health Care",
+      "issuer_cik": "0000943819",
+      "index_added_date": "2017-07-26"
+    },
+    {
+      "symbol": "RVTY",
+      "company": "Revvity",
+      "sector": "Health Care",
+      "issuer_cik": "0000031791",
+      "index_added_date": "1985-05-31"
+    },
+    {
+      "symbol": "HOOD",
+      "company": "Robinhood Markets",
+      "sector": "Financials",
+      "issuer_cik": "0001783879",
+      "index_added_date": "2025-09-22"
+    },
+    {
+      "symbol": "ROK",
+      "company": "Rockwell Automation",
+      "sector": "Industrials",
+      "issuer_cik": "0001024478",
+      "index_added_date": "2000-03-12"
+    },
+    {
+      "symbol": "ROL",
+      "company": "Rollins, Inc.",
+      "sector": "Industrials",
+      "issuer_cik": "0000084839",
+      "index_added_date": "2018-10-01"
+    },
+    {
+      "symbol": "ROP",
+      "company": "Roper Technologies",
+      "sector": "Information Technology",
+      "issuer_cik": "0000882835",
+      "index_added_date": "2009-12-23"
+    },
+    {
+      "symbol": "ROST",
+      "company": "Ross Stores",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000745732",
+      "index_added_date": "2009-12-21"
+    },
+    {
+      "symbol": "RCL",
+      "company": "Royal Caribbean Group",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000884887",
+      "index_added_date": "2014-12-05"
+    },
+    {
+      "symbol": "RTX",
+      "company": "RTX Corporation",
+      "sector": "Industrials",
+      "issuer_cik": "0000101829",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "SPGI",
+      "company": "S&P Global",
+      "sector": "Financials",
+      "issuer_cik": "0000064040",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "CRM",
+      "company": "Salesforce",
+      "sector": "Information Technology",
+      "issuer_cik": "0001108524",
+      "index_added_date": "2008-09-15"
+    },
+    {
+      "symbol": "SNDK",
+      "company": "Sandisk",
+      "sector": "Information Technology",
+      "issuer_cik": "0002023554",
+      "index_added_date": "2025-11-28"
+    },
+    {
+      "symbol": "SBAC",
+      "company": "SBA Communications",
+      "sector": "Real Estate",
+      "issuer_cik": "0001034054",
+      "index_added_date": "2017-09-01"
+    },
+    {
+      "symbol": "SLB",
+      "company": "Schlumberger",
+      "sector": "Energy",
+      "issuer_cik": "0000087347",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "STX",
+      "company": "Seagate Technology",
+      "sector": "Information Technology",
+      "issuer_cik": "0001137789",
+      "index_added_date": "2012-07-02"
+    },
+    {
+      "symbol": "SRE",
+      "company": "Sempra",
+      "sector": "Utilities",
+      "issuer_cik": "0001032208",
+      "index_added_date": "2017-03-17"
+    },
+    {
+      "symbol": "NOW",
+      "company": "ServiceNow",
+      "sector": "Information Technology",
+      "issuer_cik": "0001373715",
+      "index_added_date": "2019-11-21"
+    },
+    {
+      "symbol": "SHW",
+      "company": "Sherwin-Williams",
+      "sector": "Materials",
+      "issuer_cik": "0000089800",
+      "index_added_date": "1964-06-30"
+    },
+    {
+      "symbol": "SPG",
+      "company": "Simon Property Group",
+      "sector": "Real Estate",
+      "issuer_cik": "0001063761",
+      "index_added_date": "2002-06-26"
+    },
+    {
+      "symbol": "SKYD",
+      "company": "Skydance",
+      "sector": "Communication Services",
+      "issuer_cik": "0002041610",
+      "index_added_date": "1994-09-30"
+    },
+    {
+      "symbol": "SWKS",
+      "company": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "issuer_cik": "0000004127",
+      "index_added_date": "2015-03-12"
+    },
+    {
+      "symbol": "SJM",
+      "company": "J.M. Smucker Company (The)",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000091419",
+      "index_added_date": "2008-11-06"
+    },
+    {
+      "symbol": "SW",
+      "company": "Smurfit Westrock",
+      "sector": "Materials",
+      "issuer_cik": "0002005951",
+      "index_added_date": "2024-07-08"
+    },
+    {
+      "symbol": "SNA",
+      "company": "Snap-on",
+      "sector": "Industrials",
+      "issuer_cik": "0000091440",
+      "index_added_date": "1982-09-30"
+    },
+    {
+      "symbol": "SOLV",
+      "company": "Solventum",
+      "sector": "Health Care",
+      "issuer_cik": "0001964738",
+      "index_added_date": "2024-04-01"
+    },
+    {
+      "symbol": "SO",
+      "company": "Southern Company",
+      "sector": "Utilities",
+      "issuer_cik": "0000092122",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "LUV",
+      "company": "Southwest Airlines",
+      "sector": "Industrials",
+      "issuer_cik": "0000092380",
+      "index_added_date": "1994-07-01"
+    },
+    {
+      "symbol": "SWK",
+      "company": "Stanley Black & Decker",
+      "sector": "Industrials",
+      "issuer_cik": "0000093556",
+      "index_added_date": "1982-09-30"
+    },
+    {
+      "symbol": "SBUX",
+      "company": "Starbucks",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000829224",
+      "index_added_date": "2000-06-07"
+    },
+    {
+      "symbol": "STT",
+      "company": "State Street Corporation",
+      "sector": "Financials",
+      "issuer_cik": "0000093751",
+      "index_added_date": "2003-03-14"
+    },
+    {
+      "symbol": "STLD",
+      "company": "Steel Dynamics",
+      "sector": "Materials",
+      "issuer_cik": "0001022671",
+      "index_added_date": "2022-12-22"
+    },
+    {
+      "symbol": "STE",
+      "company": "Steris",
+      "sector": "Health Care",
+      "issuer_cik": "0001757898",
+      "index_added_date": "2019-12-23"
+    },
+    {
+      "symbol": "SYK",
+      "company": "Stryker Corporation",
+      "sector": "Health Care",
+      "issuer_cik": "0000310764",
+      "index_added_date": "2000-12-12"
+    },
+    {
+      "symbol": "SMCI",
+      "company": "Supermicro",
+      "sector": "Information Technology",
+      "issuer_cik": "0001375365",
+      "index_added_date": "2024-03-18"
+    },
+    {
+      "symbol": "SYF",
+      "company": "Synchrony Financial",
+      "sector": "Financials",
+      "issuer_cik": "0001601712",
+      "index_added_date": "2015-11-18"
+    },
+    {
+      "symbol": "SNPS",
+      "company": "Synopsys",
+      "sector": "Information Technology",
+      "issuer_cik": "0000883241",
+      "index_added_date": "2017-03-16"
+    },
+    {
+      "symbol": "SYY",
+      "company": "Sysco",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000096021",
+      "index_added_date": "1986-12-31"
+    },
+    {
+      "symbol": "TMUS",
+      "company": "T-Mobile US",
+      "sector": "Communication Services",
+      "issuer_cik": "0001283699",
+      "index_added_date": "2019-07-15"
+    },
+    {
+      "symbol": "TROW",
+      "company": "T. Rowe Price",
+      "sector": "Financials",
+      "issuer_cik": "0001113169",
+      "index_added_date": "2019-07-29"
+    },
+    {
+      "symbol": "TTWO",
+      "company": "Take-Two Interactive",
+      "sector": "Communication Services",
+      "issuer_cik": "0000946581",
+      "index_added_date": "2018-03-19"
+    },
+    {
+      "symbol": "TPR",
+      "company": "Tapestry, Inc.",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001116132",
+      "index_added_date": "2004-09-01"
+    },
+    {
+      "symbol": "TRGP",
+      "company": "Targa Resources",
+      "sector": "Energy",
+      "issuer_cik": "0001389170",
+      "index_added_date": "2022-10-12"
+    },
+    {
+      "symbol": "TGT",
+      "company": "Target Corporation",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000027419",
+      "index_added_date": "1976-12-31"
+    },
+    {
+      "symbol": "TEL",
+      "company": "TE Connectivity",
+      "sector": "Information Technology",
+      "issuer_cik": "0001385157",
+      "index_added_date": "2011-10-17"
+    },
+    {
+      "symbol": "TDY",
+      "company": "Teledyne Technologies",
+      "sector": "Information Technology",
+      "issuer_cik": "0001094285",
+      "index_added_date": "2020-06-22"
+    },
+    {
+      "symbol": "TER",
+      "company": "Teradyne",
+      "sector": "Information Technology",
+      "issuer_cik": "0000097210",
+      "index_added_date": "2020-09-21"
+    },
+    {
+      "symbol": "TSLA",
+      "company": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001318605",
+      "index_added_date": "2020-12-21"
+    },
+    {
+      "symbol": "TXN",
+      "company": "Texas Instruments",
+      "sector": "Information Technology",
+      "issuer_cik": "0000097476",
+      "index_added_date": "2001-03-12"
+    },
+    {
+      "symbol": "TPL",
+      "company": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "issuer_cik": "0001811074",
+      "index_added_date": "2024-11-26"
+    },
+    {
+      "symbol": "TXT",
+      "company": "Textron",
+      "sector": "Industrials",
+      "issuer_cik": "0000217346",
+      "index_added_date": "1978-12-31"
+    },
+    {
+      "symbol": "TMO",
+      "company": "Thermo Fisher Scientific",
+      "sector": "Health Care",
+      "issuer_cik": "0000097745",
+      "index_added_date": "2004-08-03"
+    },
+    {
+      "symbol": "TJX",
+      "company": "TJX Companies",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000109198",
+      "index_added_date": "1985-09-30"
+    },
+    {
+      "symbol": "TKO",
+      "company": "TKO Group Holdings",
+      "sector": "Communication Services",
+      "issuer_cik": "0001973266",
+      "index_added_date": "2025-03-24"
+    },
+    {
+      "symbol": "TSCO",
+      "company": "Tractor Supply",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000916365",
+      "index_added_date": "2014-01-24"
+    },
+    {
+      "symbol": "TT",
+      "company": "Trane Technologies",
+      "sector": "Industrials",
+      "issuer_cik": "0001466258",
+      "index_added_date": "2010-11-17"
+    },
+    {
+      "symbol": "TDG",
+      "company": "TransDigm Group",
+      "sector": "Industrials",
+      "issuer_cik": "0001260221",
+      "index_added_date": "2016-06-03"
+    },
+    {
+      "symbol": "TRV",
+      "company": "Travelers Companies (The)",
+      "sector": "Financials",
+      "issuer_cik": "0000086312",
+      "index_added_date": "2002-08-21"
+    },
+    {
+      "symbol": "TRMB",
+      "company": "Trimble Inc.",
+      "sector": "Information Technology",
+      "issuer_cik": "0000864749",
+      "index_added_date": "2021-01-21"
+    },
+    {
+      "symbol": "TFC",
+      "company": "Truist Financial",
+      "sector": "Financials",
+      "issuer_cik": "0000092230",
+      "index_added_date": "1997-12-04"
+    },
+    {
+      "symbol": "TWLO",
+      "company": "Twilio",
+      "sector": "Information Technology",
+      "issuer_cik": "0001447669",
+      "index_added_date": "2026-10-06"
+    },
+    {
+      "symbol": "TYL",
+      "company": "Tyler Technologies",
+      "sector": "Information Technology",
+      "issuer_cik": "0000860731",
+      "index_added_date": "2020-06-22"
+    },
+    {
+      "symbol": "TSN",
+      "company": "Tyson Foods",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000100493",
+      "index_added_date": "2005-08-10"
+    },
+    {
+      "symbol": "USB",
+      "company": "U.S. Bancorp",
+      "sector": "Financials",
+      "issuer_cik": "0000036104",
+      "index_added_date": "1999-11-01"
+    },
+    {
+      "symbol": "UBER",
+      "company": "Uber",
+      "sector": "Industrials",
+      "issuer_cik": "0001543151",
+      "index_added_date": "2023-12-18"
+    },
+    {
+      "symbol": "UDR",
+      "company": "UDR, Inc.",
+      "sector": "Real Estate",
+      "issuer_cik": "0000074208",
+      "index_added_date": "2016-03-07"
+    },
+    {
+      "symbol": "ULTA",
+      "company": "Ulta Beauty",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001403568",
+      "index_added_date": "2016-04-18"
+    },
+    {
+      "symbol": "UNP",
+      "company": "Union Pacific Corporation",
+      "sector": "Industrials",
+      "issuer_cik": "0000100885",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "UAL",
+      "company": "United Airlines Holdings",
+      "sector": "Industrials",
+      "issuer_cik": "0000100517",
+      "index_added_date": "2015-09-03"
+    },
+    {
+      "symbol": "UPS",
+      "company": "United Parcel Service",
+      "sector": "Industrials",
+      "issuer_cik": "0001090727",
+      "index_added_date": "2002-07-22"
+    },
+    {
+      "symbol": "URI",
+      "company": "United Rentals",
+      "sector": "Industrials",
+      "issuer_cik": "0001067701",
+      "index_added_date": "2014-09-20"
+    },
+    {
+      "symbol": "UNH",
+      "company": "UnitedHealth Group",
+      "sector": "Health Care",
+      "issuer_cik": "0000731766",
+      "index_added_date": "1994-07-01"
+    },
+    {
+      "symbol": "UHS",
+      "company": "Universal Health Services",
+      "sector": "Health Care",
+      "issuer_cik": "0000352915",
+      "index_added_date": "2014-09-20"
+    },
+    {
+      "symbol": "VLO",
+      "company": "Valero Energy",
+      "sector": "Energy",
+      "issuer_cik": "0001035002",
+      "index_added_date": "2002-12-20"
+    },
+    {
+      "symbol": "VEEV",
+      "company": "Veeva Systems",
+      "sector": "Health Care",
+      "issuer_cik": "0001393052",
+      "index_added_date": "2026-05-07"
+    },
+    {
+      "symbol": "VTR",
+      "company": "Ventas",
+      "sector": "Real Estate",
+      "issuer_cik": "0000740260",
+      "index_added_date": "2009-03-04"
+    },
+    {
+      "symbol": "VLTO",
+      "company": "Veralto",
+      "sector": "Industrials",
+      "issuer_cik": "0001967680",
+      "index_added_date": "2023-10-02"
+    },
+    {
+      "symbol": "VRSN",
+      "company": "Verisign",
+      "sector": "Information Technology",
+      "issuer_cik": "0001014473",
+      "index_added_date": "2006-02-01"
+    },
+    {
+      "symbol": "VRSK",
+      "company": "Verisk Analytics",
+      "sector": "Industrials",
+      "issuer_cik": "0001442145",
+      "index_added_date": "2015-10-08"
+    },
+    {
+      "symbol": "VZ",
+      "company": "Verizon",
+      "sector": "Communication Services",
+      "issuer_cik": "0000732712",
+      "index_added_date": "1983-11-30"
+    },
+    {
+      "symbol": "VRTX",
+      "company": "Vertex Pharmaceuticals",
+      "sector": "Health Care",
+      "issuer_cik": "0000875320",
+      "index_added_date": "2013-09-23"
+    },
+    {
+      "symbol": "VRT",
+      "company": "Vertiv",
+      "sector": "Industrials",
+      "issuer_cik": "0001674101",
+      "index_added_date": "2026-03-23"
+    },
+    {
+      "symbol": "VTRS",
+      "company": "Viatris",
+      "sector": "Health Care",
+      "issuer_cik": "0001792044",
+      "index_added_date": "2004-04-23"
+    },
+    {
+      "symbol": "VICI",
+      "company": "Vici Properties",
+      "sector": "Real Estate",
+      "issuer_cik": "0001705696",
+      "index_added_date": "2022-06-08"
+    },
+    {
+      "symbol": "V",
+      "company": "Visa Inc.",
+      "sector": "Financials",
+      "issuer_cik": "0001403161",
+      "index_added_date": "2009-12-21"
+    },
+    {
+      "symbol": "VST",
+      "company": "Vistra Corp.",
+      "sector": "Utilities",
+      "issuer_cik": "0001692819",
+      "index_added_date": "2024-05-08"
+    },
+    {
+      "symbol": "VMRK",
+      "company": "Vivmark Residential",
+      "sector": "Real Estate",
+      "issuer_cik": "0000906107",
+      "index_added_date": "2001-12-03"
+    },
+    {
+      "symbol": "VMC",
+      "company": "Vulcan Materials Company",
+      "sector": "Materials",
+      "issuer_cik": "0001396009",
+      "index_added_date": "1999-06-30"
+    },
+    {
+      "symbol": "VYLR",
+      "company": "Vylor",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0002128626",
+      "index_added_date": "2026-10-01"
+    },
+    {
+      "symbol": "WRB",
+      "company": "W. R. Berkley Corporation",
+      "sector": "Financials",
+      "issuer_cik": "0000011544",
+      "index_added_date": "2019-12-05"
+    },
+    {
+      "symbol": "GWW",
+      "company": "W. W. Grainger",
+      "sector": "Industrials",
+      "issuer_cik": "0000277135",
+      "index_added_date": "1981-06-30"
+    },
+    {
+      "symbol": "WAB",
+      "company": "Wabtec",
+      "sector": "Industrials",
+      "issuer_cik": "0000943452",
+      "index_added_date": "2019-02-27"
+    },
+    {
+      "symbol": "WMT",
+      "company": "Walmart",
+      "sector": "Consumer Staples",
+      "issuer_cik": "0000104169",
+      "index_added_date": "1982-08-31"
+    },
+    {
+      "symbol": "DIS",
+      "company": "Walt Disney Company (The)",
+      "sector": "Communication Services",
+      "issuer_cik": "0001744489",
+      "index_added_date": "1976-06-30"
+    },
+    {
+      "symbol": "WM",
+      "company": "Waste Management",
+      "sector": "Industrials",
+      "issuer_cik": "0000823768",
+      "index_added_date": "1998-08-31"
+    },
+    {
+      "symbol": "WAT",
+      "company": "Waters Corporation",
+      "sector": "Health Care",
+      "issuer_cik": "0001000697",
+      "index_added_date": "2002-01-02"
+    },
+    {
+      "symbol": "WEC",
+      "company": "WEC Energy Group",
+      "sector": "Utilities",
+      "issuer_cik": "0000783325",
+      "index_added_date": "2008-10-31"
+    },
+    {
+      "symbol": "WFC",
+      "company": "Wells Fargo",
+      "sector": "Financials",
+      "issuer_cik": "0000072971",
+      "index_added_date": "1976-06-30"
+    },
+    {
+      "symbol": "WELL",
+      "company": "Welltower",
+      "sector": "Real Estate",
+      "issuer_cik": "0000766704",
+      "index_added_date": "2009-01-30"
+    },
+    {
+      "symbol": "WST",
+      "company": "West Pharmaceutical Services",
+      "sector": "Health Care",
+      "issuer_cik": "0000105770",
+      "index_added_date": "2020-05-22"
+    },
+    {
+      "symbol": "WDC",
+      "company": "Western Digital",
+      "sector": "Information Technology",
+      "issuer_cik": "0000106040",
+      "index_added_date": "2009-07-01"
+    },
+    {
+      "symbol": "WY",
+      "company": "Weyerhaeuser",
+      "sector": "Real Estate",
+      "issuer_cik": "0000106535",
+      "index_added_date": "1979-10-01"
+    },
+    {
+      "symbol": "WSM",
+      "company": "Williams-Sonoma, Inc.",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0000719955",
+      "index_added_date": "2025-03-24"
+    },
+    {
+      "symbol": "WMB",
+      "company": "Williams Companies",
+      "sector": "Energy",
+      "issuer_cik": "0000107263",
+      "index_added_date": "1975-03-31"
+    },
+    {
+      "symbol": "WTW",
+      "company": "Willis Towers Watson",
+      "sector": "Financials",
+      "issuer_cik": "0001140536",
+      "index_added_date": "2016-01-05"
+    },
+    {
+      "symbol": "WDAY",
+      "company": "Workday, Inc.",
+      "sector": "Information Technology",
+      "issuer_cik": "0001327811",
+      "index_added_date": "2024-12-23"
+    },
+    {
+      "symbol": "WYNN",
+      "company": "Wynn Resorts",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001174922",
+      "index_added_date": "2008-11-14"
+    },
+    {
+      "symbol": "XEL",
+      "company": "Xcel Energy",
+      "sector": "Utilities",
+      "issuer_cik": "0000072903",
+      "index_added_date": "1957-03-04"
+    },
+    {
+      "symbol": "XYL",
+      "company": "Xylem Inc.",
+      "sector": "Industrials",
+      "issuer_cik": "0001524472",
+      "index_added_date": "2011-11-01"
+    },
+    {
+      "symbol": "YUM",
+      "company": "Yum! Brands",
+      "sector": "Consumer Discretionary",
+      "issuer_cik": "0001041061",
+      "index_added_date": "1997-10-06"
+    },
+    {
+      "symbol": "ZBRA",
+      "company": "Zebra Technologies",
+      "sector": "Information Technology",
+      "issuer_cik": "0000877212",
+      "index_added_date": "2019-12-23"
+    },
+    {
+      "symbol": "ZBH",
+      "company": "Zimmer Biomet",
+      "sector": "Health Care",
+      "issuer_cik": "0001136869",
+      "index_added_date": "2001-08-07"
+    },
+    {
+      "symbol": "ZTS",
+      "company": "Zoetis",
+      "sector": "Health Care",
+      "issuer_cik": "0001555280",
+      "index_added_date": "2013-06-21"
+    }
+  ]
+}

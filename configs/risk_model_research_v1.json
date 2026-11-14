@@ -1,0 +1,26 @@
+{
+  "schema_version": "risk_model_research_v1",
+  "rule_version": "RISK-MODEL-PUBLIC-1.0.0",
+  "recorded_on_hkt": "2026-11-09",
+  "parent_config_file": "risk_preflight_v1.json",
+  "parent_config_sha256": "fc19e031e7b159c5b937bd2bdc327cde8801a46235f42e375316accccc14d959",
+  "beta_returns": 60,
+  "covariance_returns": 252,
+  "covariance_shrinkage": "0.10",
+  "covariance_target": "sample_diagonal",
+  "risk_return_price": "guarded_frozen_latest_adjusted_close",
+  "missing_sessions": "exclude_symbol_no_fill_no_pairwise_covariance",
+  "benchmark_return": "SPY_adjusted_close",
+  "research_profile": {
+    "equity_weight": "0.80",
+    "maximum_positions": 20,
+    "security_cap": "0.04",
+    "sector_cap": "0.20",
+    "active_weight_beta_tracking_error_constraints": "not_enforced_missing_benchmark_inputs_not_full_index_enhancement"
+  },
+  "availability": "actual_first_production_and_input_retrieval_recorded_separately_from_model_cutoff",
+  "historical_point_in_time": false,
+  "optimizer_enabled": false,
+  "broker_routing_enabled": false,
+  "parameter_search_performed": false
+}
