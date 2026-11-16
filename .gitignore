@@ -3,6 +3,9 @@
 !.env.example
 __pycache__/
 .venv/
+.venv-*/
+data/
+mlruns/
 experiments/databento_smoke/data/
 
 # Local derived research outputs

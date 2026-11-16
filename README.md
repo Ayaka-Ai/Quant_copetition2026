@@ -1,13 +1,14 @@
 # Quant_copetition2026
-量化比赛的策略研究、数据适配与本地模拟回测代码。目前策略、因子、风控和账户模块由本项目实现，尚未调用 Qlib 或接入 AIVIX；Qlib 接入属于后续计划。已保留主线的独立工具，见 [factor-tools](factor-tools/README.md)。
+量化比赛的策略研究、数据适配与本地模拟回测代码。美股策略、因子、风控和账户模块由本项目实现；加密资产的30条Qlib公式另提供字段盘点与6个价格因子的合成数据复现入口，见 [加密因子字段与复现](docs/加密因子字段与复现.md)。真实加密数据映射与统一IC检验尚待完成。独立股票因子导出工具见 [factor-tools](factor-tools/README.md)。
 
-## strategyX 分支快速开始
+## 美股策略快速开始
 
 建议使用 Python 3.12（完整测试已在 Python 3.12 / NumPy 2.3.5 下验证）。从仓库根目录运行：
 
 ```bash
-git clone --branch strategyX https://github.com/Ayaka-Ai/Quant_copetition2026.git
+git clone https://github.com/Ayaka-Ai/Quant_copetition2026.git
 cd Quant_copetition2026
+git switch codex/crypto-factor-integration
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-risk.txt
@@ -16,7 +17,7 @@ python -m examples.run_portfolio
 python -m examples.run_momentum
 ```
 
-测试和上述两个默认示例使用合成数据，无需 API key、原始行情缓存或联网。完整测试为 172 项；未安装 NumPy 时会跳过 20 项风险相关测试。`factor-tools` 有独立依赖和使用说明。
+测试和上述两个默认示例使用合成数据，无需 API key、原始行情缓存或联网。美股模块原有172项测试；未安装NumPy时跳过20项风险测试。另有4项Qlib集成测试，未安装 `requirements-qlib.txt` 时跳过。`factor-tools` 有独立依赖和使用说明。
 
 本分支包含 `quant_data`、`quant_signals`、`quant_portfolio`、`quant_backtest`、配置、测试、示例、文档及 Databento 试跑脚本。原始行情、凭证、`outputs/`、`output/` 和 `tmp/` 不随代码上传。下文历史报告中的收益和产物路径是本地实验记录，并不表示克隆后已有这些数据或产物。
 

@@ -24,29 +24,36 @@ Store them at their *release/availability timestamp* (not merely their
 reference-period timestamp) to avoid look-ahead bias.
 """
 
+import re
+
 from qlib.contrib.data.handler import _DEFAULT_LEARN_PROCESSORS, check_transform_proc
 from qlib.data.dataset.handler import DataHandlerLP
 from qlib.data.dataset.loader import QlibDataLoader
 
 
 _EPS = "1e-8"
+PRICE_FACTOR_NAMES = (
+    "7d_return", "60d_return", "20d_trend_slope_norm",
+    "close_dist_sma20", "close_dist_sma50", "60d_min_max_position",
+)
 
 
 class CryptoFactorDL(QlibDataLoader):
     """Qlib data loader defining the 30 price, macro, on-chain, volatility and sentiment factors."""
 
-    def __init__(self, config=None, **kwargs):
-        default_config = {"feature": self.get_feature_config()}
+    def __init__(self, config=None, factor_names=None, **kwargs):
+        default_config = {"feature": self.get_feature_config(factor_names)}
         if config is not None:
             default_config.update(config)
         super().__init__(config=default_config, **kwargs)
 
     @staticmethod
-    def get_feature_config():
+    def _get_all_feature_config():
         """Return ``(fields, names)`` in the same format as ``Alpha158DL``.
 
         All rolling windows are in bars.  With ``freq='day'`` they are trading
-        days; with a different frequency they become bars of that frequency.
+        calendar entries (including weekends if supplied); with a different
+        frequency they become bars of that frequency.
         """
         eps = _EPS
         fields = [
@@ -120,11 +127,38 @@ class CryptoFactorDL(QlibDataLoader):
         ]
         return fields, names
 
+    @staticmethod
+    def get_feature_config(factor_names=None):
+        """Select explicitly; the default retains all 30 original formulas."""
+        fields, names = CryptoFactorDL._get_all_feature_config()
+        if factor_names is None:
+            return fields, names
+        if isinstance(factor_names, str):
+            raise ValueError("factor_names must be a nonempty sequence of names")
+        selected = list(factor_names)
+        if not selected or len(set(selected)) != len(selected):
+            raise ValueError("factor_names must be nonempty and unique")
+        unknown = set(selected) - set(names)
+        if unknown:
+            raise ValueError("Unknown factors: " + ", ".join(sorted(unknown)))
+        lookup = dict(zip(names, fields))
+        return [lookup[name] for name in selected], selected
+
+    @staticmethod
+    def get_factor_inventory():
+        fields, names = CryptoFactorDL.get_feature_config()
+        return [
+            {"name": name, "expression": expression,
+             "required_fields": sorted(set(re.findall(r"\$([a-zA-Z_][a-zA-Z_0-9]*)", expression)))}
+            for expression, name in zip(fields, names)
+        ]
+
 
 class CryptoFactorHandler(DataHandlerLP):
     """DataHandlerLP wrapper for :class:`CryptoFactorDL`.
 
-    The label follows Alpha158's default two-step-ahead close-to-close return.
+    LABEL0 is close(t+2)/close(t+1)-1. Default learning processors normalize it
+    across instruments; pass learn_processors=[] to inspect unnormalized labels.
     Pass a custom ``label`` argument to override it.
     """
 
@@ -134,23 +168,25 @@ class CryptoFactorHandler(DataHandlerLP):
         start_time=None,
         end_time=None,
         freq="day",
-        infer_processors=[],
+        infer_processors=None,
         learn_processors=_DEFAULT_LEARN_PROCESSORS,
         fit_start_time=None,
         fit_end_time=None,
         process_type=DataHandlerLP.PTYPE_A,
         filter_pipe=None,
         inst_processors=None,
+        factor_names=None,
         **kwargs,
     ):
-        infer_processors = check_transform_proc(infer_processors, fit_start_time, fit_end_time)
+        infer_processors = check_transform_proc(
+            [] if infer_processors is None else infer_processors, fit_start_time, fit_end_time
+        )
         learn_processors = check_transform_proc(learn_processors, fit_start_time, fit_end_time)
         data_loader = {
-            "class": "CryptoFactorDL",
-            "module_path": "qlib.contrib.data.crypto_factor",
+            "class": CryptoFactorDL,
             "kwargs": {
                 "config": {
-                    "feature": CryptoFactorDL.get_feature_config(),
+                    "feature": self.get_feature_config(factor_names),
                     "label": kwargs.pop("label", self.get_label_config()),
                 },
                 "filter_pipe": filter_pipe,
@@ -170,8 +206,8 @@ class CryptoFactorHandler(DataHandlerLP):
         )
 
     @staticmethod
-    def get_feature_config():
-        return CryptoFactorDL.get_feature_config()
+    def get_feature_config(factor_names=None):
+        return CryptoFactorDL.get_feature_config(factor_names)
 
     @staticmethod
     def get_label_config():

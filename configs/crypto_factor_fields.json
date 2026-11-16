@@ -1,0 +1,241 @@
+{
+  "scope": "input requirements for crypto_factor.py; not a data-availability assertion",
+  "mapping_contract": [
+    "asset",
+    "provider_and_endpoint",
+    "unit",
+    "frequency",
+    "timezone",
+    "bar_start_and_end",
+    "available_at",
+    "history_range",
+    "missing_and_revision_policy"
+  ],
+  "fields": [
+    {
+      "field": "close",
+      "category": "价格",
+      "meaning_to_confirm": "加密资产收盘价",
+      "input_kind": "price",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "source_pending",
+      "required_checks": "价格币种、交易场所、日线边界及修订"
+    },
+    {
+      "field": "high",
+      "category": "价格",
+      "meaning_to_confirm": "加密资产日内最高价",
+      "input_kind": "price",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "source_pending",
+      "required_checks": "须与close来自相同场所、计价币与日线窗口"
+    },
+    {
+      "field": "low",
+      "category": "价格",
+      "meaning_to_confirm": "加密资产日内最低价",
+      "input_kind": "price",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "source_pending",
+      "required_checks": "须与high/close口径一致"
+    },
+    {
+      "field": "adx14",
+      "category": "价格派生",
+      "meaning_to_confirm": "14期ADX",
+      "input_kind": "price_derived",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "convention_pending",
+      "required_checks": "Wilder平滑、初始值、预热长度"
+    },
+    {
+      "field": "di_plus14",
+      "category": "价格派生",
+      "meaning_to_confirm": "14期正方向指标",
+      "input_kind": "price_derived",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "convention_pending",
+      "required_checks": "与adx14同一平滑与单位"
+    },
+    {
+      "field": "di_minus14",
+      "category": "价格派生",
+      "meaning_to_confirm": "14期负方向指标",
+      "input_kind": "price_derived",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "convention_pending",
+      "required_checks": "与adx14同一平滑与单位"
+    },
+    {
+      "field": "fed_funds",
+      "category": "宏观",
+      "meaning_to_confirm": "政策利率序列（具体口径待定）",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "目标区间/有效利率、百分数/小数、生效与发布时间"
+    },
+    {
+      "field": "dxy",
+      "category": "宏观",
+      "meaning_to_confirm": "美元指数",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "指数版本、价格时间、资产间是否共用"
+    },
+    {
+      "field": "cpi_yoy",
+      "category": "宏观",
+      "meaning_to_confirm": "CPI同比",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "地区、统计口径、发布日期与历史修订"
+    },
+    {
+      "field": "m2",
+      "category": "宏观",
+      "meaning_to_confirm": "M2货币量",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "地区、单位、发布日期；不能用后修订值冒充当时可见值"
+    },
+    {
+      "field": "net_etf_flow",
+      "category": "资金与规模",
+      "meaning_to_confirm": "ETF净流量",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "哪些ETF、净流量单位、可用时间、与币种对应"
+    },
+    {
+      "field": "market_cap",
+      "category": "资金与规模",
+      "meaning_to_confirm": "资产市值",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "资产范围、流通量口径、计价单位与净流量一致"
+    },
+    {
+      "field": "hashrate",
+      "category": "链上",
+      "meaning_to_confirm": "算力",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "适用PoW资产；其他资产不可直接沿用BTC含义"
+    },
+    {
+      "field": "active_addresses",
+      "category": "链上",
+      "meaning_to_confirm": "活跃地址",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "活跃定义、地址去重、链、发布/更新延迟"
+    },
+    {
+      "field": "cdd_nvt",
+      "category": "链上",
+      "meaning_to_confirm": "名称混合CDD/NVT，含义未定",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "CDD和NVT不是可互换指标，不能靠变量名猜测"
+    },
+    {
+      "field": "sopr_above_one",
+      "category": "链上",
+      "meaning_to_confirm": "SOPR条件序列之一，具体含义待定",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "值不存在时如何表示；If分支条件与原始字段是否一致"
+    },
+    {
+      "field": "sopr_below_one",
+      "category": "链上",
+      "meaning_to_confirm": "SOPR条件序列之二，具体含义待定",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "是否与另一字段为同一序列拆分、缺失与单位"
+    },
+    {
+      "field": "sth_supply_profit_loss_ratio",
+      "category": "链上",
+      "meaning_to_confirm": "短期持有者供应盈亏比",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "短期持有者划分、分子分母、是否允许0及对数域"
+    },
+    {
+      "field": "lth_mvrv",
+      "category": "链上",
+      "meaning_to_confirm": "长期持有者MVRV",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "持有者划分、币种、更新时间与修订"
+    },
+    {
+      "field": "hv30",
+      "category": "价格派生",
+      "meaning_to_confirm": "30期历史波动",
+      "input_kind": "price_derived",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "convention_pending",
+      "required_checks": "对数/简单收益、ddof、年化365/252、单位"
+    },
+    {
+      "field": "hv50",
+      "category": "价格派生",
+      "meaning_to_confirm": "50期历史波动",
+      "input_kind": "price_derived",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "convention_pending",
+      "required_checks": "与hv30/hv100同一计算口径"
+    },
+    {
+      "field": "hv100",
+      "category": "价格派生",
+      "meaning_to_confirm": "100期历史波动",
+      "input_kind": "price_derived",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "convention_pending",
+      "required_checks": "足够预热；若基于100日收益，至少101个价格点"
+    },
+    {
+      "field": "fg_alt",
+      "category": "情绪",
+      "meaning_to_confirm": "情绪指数A，作者需明确来源",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "名称和/100暗示量纲，但不能据此认定是某个恐惧贪婪指数"
+    },
+    {
+      "field": "fg_perc",
+      "category": "情绪",
+      "meaning_to_confirm": "情绪指数B，作者需明确来源",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "不能把AIVIX情绪Z值直接改名来代替"
+    },
+    {
+      "field": "ssr",
+      "category": "链上/流动性",
+      "meaning_to_confirm": "稳定币供应比率（具体定义待定）",
+      "input_kind": "external",
+      "source_mapping_status": "unconfirmed",
+      "definition_status": "definition_and_source_pending",
+      "required_checks": "对应币种、市值范围、方向及发布时间"
+    }
+  ]
+}
