@@ -1,0 +1,32 @@
+{
+  "params": {
+    "dataset": "EQUS.MINI",
+    "symbols": "AAPL,MSFT,SPY",
+    "schema": "ohlcv-1d",
+    "stype_in": "raw_symbol",
+    "stype_out": "instrument_id",
+    "start": "2026-07-01T00:00:00Z",
+    "end": "2026-10-01T00:00:00Z"
+  },
+  "rows": 192,
+  "counts": {
+    "AAPL": 64,
+    "MSFT": 64,
+    "SPY": 64
+  },
+  "expected_session_dates_per_symbol": 64,
+  "missing": [],
+  "errors": [],
+  "warnings": [],
+  "structural_pass": true,
+  "acceptance_pass": true,
+  "overlap_checked": 15,
+  "overlap_differences": [],
+  "sha256": "8b1d1354cd228b4cc54c87dc71786cc8dc047895e0c081aadb365d9763965384",
+  "limitations": [
+    "UTC daily bars, not regular-session OHLC.",
+    "Unadjusted; corporate actions and external prices not reconciled.",
+    "Volume covers component venues, not full market.",
+    "Calendar coverage check is sample-specific, not proof of session semantics."
+  ]
+}

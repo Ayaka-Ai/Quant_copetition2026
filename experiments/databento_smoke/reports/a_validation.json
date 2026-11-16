@@ -1,0 +1,24 @@
+{
+  "rows": 15,
+  "counts": {
+    "AAPL": 5,
+    "MSFT": 5,
+    "SPY": 5
+  },
+  "errors": [],
+  "structural_pass": true,
+  "checks": [
+    "schema",
+    "symbol mapping",
+    "five UTC bar dates per symbol",
+    "duplicates",
+    "positive prices",
+    "OHLC bounds",
+    "positive volume"
+  ],
+  "limitations": [
+    "Provider UTC daily bars are not verified regular-session bars.",
+    "Corporate actions, external price reconciliation and full-market volume not verified.",
+    "Five days are for ingestion validation, not evidence of strategy performance."
+  ]
+}

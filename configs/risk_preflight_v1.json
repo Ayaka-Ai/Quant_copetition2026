@@ -1,0 +1,51 @@
+{
+  "schema_version": "risk_preflight_v1",
+  "rule_version": "RISK-PREFLIGHT-1.0.0",
+  "recorded_on_hkt": "2026-11-09",
+  "mode": "offline_preflight_only",
+  "parent_config_file": "dropout_public_v1.json",
+  "parent_config_sha256": "b1ad038cba5c58f0344cc4505940ab947a6b56aa98d78fb980620e5b2f34e05e",
+  "limits": {
+    "security_cap": "0.04",
+    "sector_cap": "0.20",
+    "active_security_cap": "0.015",
+    "active_sector_cap": "0.03",
+    "beta_lower": "0.85",
+    "beta_upper": "1.05",
+    "annual_tracking_error_cap": "0.08",
+    "maximum_positions": 20
+  },
+  "exposure_profiles": {
+    "current_research": "0.80",
+    "trend_proposal": "0.95",
+    "range_proposal": "0.85",
+    "defensive_proposal": "0.60"
+  },
+  "benchmark_convention": "unscaled_full_equity_NAV_weights_sum_one_cash_beta_zero",
+  "conflict_policy": {
+    "hard_constraints": "all_must_hold_no_automatic_relaxation",
+    "missing_or_infeasible": "no_new_optimizer_target_keep_existing_positions_and_emit_reasons",
+    "risk_reductions": "separate_vetted_orders_still_subject_to_execution_limits",
+    "original_strategies": "unchanged"
+  },
+  "execution_policy": {
+    "initial_entry_exempt": false,
+    "ordinary_rebalance_two_way_fraction": "0.25",
+    "risk_reduction_exempt": false,
+    "corporate_actions_in_budget": false,
+    "commission_in_budget": false,
+    "price_risk_priority": "report_unfilled_reduction_do_not_bypass_budget",
+    "low_exposure": "report_do_not_force_buy_or_claim_official_qualification"
+  },
+  "data_contract": {
+    "benchmark_weights": "daily_as_of_and_timezone_aware_available_at_sum_one",
+    "sectors": "effective_date_valid_through_available_at_symbol_sector",
+    "betas": "60_contiguous_daily_returns_against_SPY_requires_61_prices",
+    "covariance": "252_contiguous_daily_returns_requires_253_prices_symmetric_PSD_daily_units_explicit_estimation_window",
+    "versions": "select_latest_available_by_cutoff_no_late_backfill",
+    "current_universe_snapshot": "exploratory_only_not_historical_sector_or_membership",
+    "shrinkage": "model_not_yet_implemented_sample_covariance_not_automatically_accepted"
+  },
+  "optimizer_enabled": false,
+  "broker_routing_enabled": false
+}

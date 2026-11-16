@@ -1,0 +1,29 @@
+{
+  "schema_version": "risk_weight_optimization_v1",
+  "rule_version": "WEIGHT-RISK-PUBLIC-1.0.0",
+  "recorded_on_hkt": "2026-11-09",
+  "risk_config_file": "risk_model_research_v1.json",
+  "risk_config_sha256": "1b2891d77197fa92f41de0427bc562be91d8c8d6ac7abc0716c6f5370f8035c4",
+  "risk_mode": "exploratory_model_time",
+  "maximum_positions": 20,
+  "equity_weight": "0.80",
+  "security_cap": "0.04",
+  "sector_cap": "0.20",
+  "underfilled": "retain_4pct_per_stock_and_cash",
+  "objective": "annual_variance_plus_L2_anchor",
+  "anchor_penalty": "0.01",
+  "solver": "projected_gradient_partition_capped_simplex",
+  "tolerance": "1e-10",
+  "max_iterations": 10000,
+  "failure_policy": "no_target_keep_actual_holdings_audit",
+  "historical_point_in_time": false,
+  "full_index_enhancement": false,
+  "broker_routing_enabled": false,
+  "parameter_search_performed": false,
+  "comparison": "same_dynamic_topk_actual_holdings_same_risk_coverage_equal_vs_optimized",
+  "risk_artifact_sha256": {
+    "summary.json": "68f2a0bc5e8860ccd28f25bcb54060b78a0518d9b33754043f8db8c9069c1cb0",
+    "betas.json": "3aacd98215625c1e5842a8f6d18a96437e05643bb31f489df1ae0992000aa410",
+    "covariance_index.json": "43f0416b0ba699eac2c3a0eb2f4564b9e57b95947a61816dcad9ae5e31e91800"
+  }
+}

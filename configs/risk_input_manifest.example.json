@@ -1,0 +1,5 @@
+{
+  "schema_version": "risk_inputs_v1",
+  "files": [],
+  "note": "Empty template, not a verified data source. Files entries: kind, file, sha256. Each JSON file contains records: as_of, available_at, source, payload; sectors also valid_through, beta/covariance also estimation_start and estimation_end. Covariance payload: symbols and matrix (daily decimal strings)."
+}

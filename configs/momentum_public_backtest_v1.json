@@ -1,0 +1,303 @@
+{
+  "schema_version": "public_exploration_rules_1.0",
+  "strategy_id": "US_MOM20_EW_PUBLIC",
+  "rule_version": "PUBLIC-1.0.1",
+  "frozen_on_hkt": "2026-11-04",
+  "implementation_status": "offline_public_momentum_and_matched_benchmarks",
+  "implementation_updated_on_hkt": "2026-11-07",
+  "broker_routing_enabled": false,
+  "account": {
+    "currency": "USD",
+    "research_initial_cash": "100000.00",
+    "long_only": true,
+    "allow_borrowing": false,
+    "allow_fractional_order_shares": false,
+    "cash_interest_annual_rate": "0",
+    "research_settlement_model": "immediate_sale_proceeds_available"
+  },
+  "universe": {
+    "mode": "frozen_snapshot",
+    "snapshot_file": "universe/sp500_2026-11-03.json",
+    "snapshot_sha256": "390c51d992c0d9906a01c16557b474956a8c67b50f3e5628c6a354ef260c5f10",
+    "asset_type": "US_listed_common_stock_including_REIT_common_shares",
+    "sector_classification": "GICS_sector_from_frozen_snapshot",
+    "issuer_key": "issuer_cik",
+    "maximum_share_classes_per_issuer": 1,
+    "share_class_choice": "first_eligible_in_momentum_rank_order",
+    "historical_use_label": "exploratory_current_universe_selection_and_survivorship_bias",
+    "manual_exclusions": []
+  },
+  "data": {
+    "calendar": "XNYS",
+    "timezone": "America/New_York",
+    "session": "US_regular_session_daily_proxy",
+    "signal_price": "latest_frozen_snapshot_yahoo_adjusted_close",
+    "sizing_price": "reconstructed_actual_share_unit_signal_close",
+    "valuation_price": "reconstructed_actual_share_unit_daily_close",
+    "turnover_field": "reported_close_volume_proxy",
+    "corporate_action_policy": "reconstruct_split_units_and_credit_gross_distribution_on_ex_date_proxy",
+    "require_data_available_by_signal_cutoff": false,
+    "allow_forward_filling_for_eligibility_or_signals": false,
+    "allow_utc_calendar_daily_open_as_regular_session_open": false,
+    "source": "Yahoo Finance chart daily responses with immutable acquisition manifests",
+    "require_model_available_by_signal_cutoff": true,
+    "historical_availability": "assumed_session_close_plus_30_minutes",
+    "forward_availability": "actual_first_seen_at_or_before_signal_cutoff_no_late_catchup",
+    "preserve_actual_retrieval_timestamps": true,
+    "source_publication_timestamp_fabrication_allowed": false,
+    "point_in_time_adjustment_verified": false,
+    "price_repair_policy": "no_automatic_repair_reject_flagged_data_keep_original_versions"
+  },
+  "eligibility": {
+    "minimum_unadjusted_close_usd_inclusive": "5.00",
+    "require_all_21_signal_closes": true,
+    "require_known_sector_and_issuer": true,
+    "require_current_tradability_and_permission": false,
+    "missing_required_stock_data_action": "exclude_from_candidates_with_reason",
+    "minimum_average_daily_reported_close_volume_proxy_inclusive": "20000000.00",
+    "require_all_30_proxy_observations": true,
+    "liquidity_lookback_sessions": 30,
+    "research_tradability_proxy": "signal_session_complete_positive_OHLC_and_positive_reported_volume",
+    "research_permission_assumption": "USD_common_equity_allowed_for_research_only",
+    "known_halt_delisting_or_permission_denial": "veto_never_override_with_proxy",
+    "require_split_and_distribution_share_basis_checks": true,
+    "unknown_membership_dates": "require_observed_history_no_prelisting_fill"
+  },
+  "signal": {
+    "type": "cross_sectional_momentum",
+    "lookback_return_intervals": 20,
+    "required_close_observations": 21,
+    "formula": "yahoo_adjusted_close[t] / yahoo_adjusted_close[t-20] - 1",
+    "sort": [
+      "momentum_descending_unrounded",
+      "symbol_ascending_ASCII"
+    ],
+    "require_positive_momentum": false,
+    "adjustment_revision_policy": "freeze_one_source_snapshot_per_run_never_mix_refetched_versions"
+  },
+  "schedule": {
+    "frequency": "weekly",
+    "signal_session": "last_exchange_session_of_each_Monday_to_Sunday_week",
+    "signal_cutoff_minutes_after_session_close": 30,
+    "execution_session": "immediate_next_exchange_session",
+    "initial_entry": "first_scheduled_rebalance_after_activation_and_data_readiness",
+    "missed_signal_cutoff": "skip_week_no_late_catchup"
+  },
+  "portfolio": {
+    "maximum_positions": 20,
+    "target_weight_per_selected_security": "0.04",
+    "maximum_target_equity_weight": "0.80",
+    "maximum_target_sector_weight": "0.20",
+    "selection_algorithm": "scan_ranked_candidates_skip_ineligible_issuer_or_sector_limit_until_20_or_exhausted",
+    "underfilled_portfolio": "keep_each_selected_weight_at_0.04_and_hold_residual_cash",
+    "unselected_security_target_weight": "0",
+    "rebalance_existing_selected_positions": true,
+    "weight_limit_interpretation": "signal_time_targets_actual_weights_may_drift",
+    "price_stop_loss": null,
+    "price_take_profit": null,
+    "between_rebalances": "hold_and_monitor_operational_and_data_health"
+  },
+  "execution": {
+    "mode": "public_data_research_backtest_reference",
+    "reference_price": "reconstructed_actual_share_unit_next_daily_open_proxy",
+    "reference_is_guaranteed_executable_fill": false,
+    "quantity_decision_time": "signal_cutoff",
+    "selected_target_shares": "floor(target_weight * signal_NAV / reconstructed_signal_close)",
+    "sell_sequence": "symbol_ascending_ASCII",
+    "buy_sequence": "momentum_rank_ascending",
+    "allow_future_fill_price_to_increase_requested_quantity": false,
+    "cash_shortfall": "reduce_buy_quantity_to_affordable_integer_cancel_remainder",
+    "order_validity": "next_scheduled_open_attempt_only",
+    "missing_open_or_not_tradable": "cancel_affected_order_log_no_later_bar_substitution",
+    "retry": "next_week_new_rebalance_only",
+    "leverage_check": "cash_and_shares_must_remain_nonnegative",
+    "split_before_fill": "adjust_pending_target_shares_then_recompute_delta_from_mechanically_adjusted_holdings",
+    "newly_seen_dividend_cash": "may_reduce_cash_shortfall_only_never_increase_signal_requested_target",
+    "tradability_at_open_proxy": "positive_reconstructed_open_and_no_known_prohibition_as_of_open",
+    "future_session_fields_for_open_decision_forbidden": [
+      "same_day_high",
+      "same_day_low",
+      "same_day_close",
+      "full_day_volume"
+    ]
+  },
+  "costs": {
+    "commission_model": "simplified_per_share_with_minimum",
+    "commission_usd_per_share": "0.005",
+    "minimum_commission_usd_per_filled_order": "1.00",
+    "commission_formula": "max(1.00, abs(filled_shares) * 0.005) for nonzero fill",
+    "slippage_bps_per_side": "5",
+    "buy_fill_price": "reference_open * 1.0005",
+    "sell_fill_price": "reference_open * 0.9995",
+    "slippage_already_in_fill_price": true,
+    "dividend_accounting": "gross_ex_date_cash_proxy_no_pay_date_or_withholding_model",
+    "unmodeled_costs": [
+      "regulatory_and_exchange_fees",
+      "taxes",
+      "price_impact",
+      "full_broker_fee_caps"
+    ]
+  },
+  "failure_policy": {
+    "unreliable_current_holding_price_or_corporate_action": "cancel_rebalance_hold_positions_report_stale_or_unavailable_NAV",
+    "normal_short_candidate_list": "apply_underfilled_portfolio_rule",
+    "low_exposure": "record_actual_exposure_and_qualification_flag_do_not_force_fill",
+    "missing_daily_marks": "do_not_treat_stale_valuations_as_valid_performance_observations",
+    "missing_required_public_inputs_or_failed_basis_checks": "no_target_plan_report_gaps",
+    "strict_v1_readiness_override_allowed": false
+  },
+  "benchmarks": [
+    {
+      "id": "SPY_80_CASH_20",
+      "equity_weight": "0.80",
+      "cash_weight": "0.20",
+      "rebalance": "same_schedule"
+    },
+    {
+      "id": "ELIGIBLE_UNIVERSE_EQUAL_WEIGHT_80",
+      "equity_weight": "0.80",
+      "cash_weight": "0.20",
+      "rebalance": "same_schedule",
+      "sector_and_issuer_selection_caps": false
+    }
+  ],
+  "optional_features": {
+    "news_trading_signal": false,
+    "risk_parity": false,
+    "machine_learning": false,
+    "market_regime_timing": false
+  },
+  "research_profile": "public_daily_exploration",
+  "historical_backtest_enabled": true,
+  "allowed_run_mode": "offline_historical_research",
+  "lineage": {
+    "parent_strategy_id": "US_MOM20_EW",
+    "parent_rule_version": "1.0.0",
+    "parent_config_file": "momentum_v1.json",
+    "parent_config_sha256_at_freeze": "30f03e2a0053a5549e3cb03c86a4d6447245399c7bc23ccfacdb8f44ff0dbc03",
+    "overwrite_parent_allowed": false
+  },
+  "scope": {
+    "public_no_credential_sources_only": true,
+    "paid_data_requests_allowed": false,
+    "purpose": "exploratory_historical_research_with_declared_assumptions",
+    "executable_live_strategy": false,
+    "claimed_point_in_time": false,
+    "claimed_out_of_sample": false,
+    "interpretation": "All results apply only to PUBLIC-1.0.0 assumptions, not frozen V1 performance"
+  },
+  "liquidity_proxy": {
+    "field": "reported_close_volume_proxy",
+    "formula": "yahoo_close * yahoo_volume",
+    "inputs_same_response_and_session": true,
+    "use_adjusted_close": false,
+    "lookback_sessions": 30,
+    "require_all_observations": true,
+    "minimum_average_inclusive": "20000000.00",
+    "interpretation": "provider_close_times_provider_volume_screen_not_exact_USD_turnover",
+    "volume_basis": "retain_provider_reported_units_no_unverified_volume_conversion",
+    "split_unit_compatibility": "unverified_source_assumption_flag_in_every_report",
+    "substitution_into_strict_v1_turnover_field_allowed": false
+  },
+  "corporate_actions": {
+    "price_basis_assumption": "Yahoo OHLC reflect splits only through cache adjustment anchor; must pass basis checks",
+    "adjustment_anchor": "explicit_source_split_adjustment_basis_as_of_retrieval_not_inferred_from_last_requested_price_date",
+    "split_ratio": "new_shares / old_shares",
+    "split_factor": "product(ratio for events with price_session < effective_session <= adjustment_anchor)",
+    "actual_share_price_formula": "yahoo_OHLC * split_factor",
+    "need_events_through_anchor_even_after_evaluation_end": true,
+    "split_effective_time": "before_effective_session_regular_open",
+    "split_position_rule": "shares *= split_ratio; aggregate_cost_basis_unchanged",
+    "pending_target_rule": "floor(original_signal_target_shares * intervening_split_ratio_product)",
+    "fractional_split_shares": "cash_in_lieu_proxy_at_effective_session_reconstructed_open_no_fee_or_slippage",
+    "fractional_orders_allowed": false,
+    "distribution_source": "frozen_provider_dividends_and_capitalGains_events",
+    "distribution_amount_basis": "explicit_per_event_actual_share_or_split_adjusted_to_cache_anchor",
+    "distribution_actual_share_amount": "raw_amount_direct_or_provider_amount_times_subsequent_split_factor_depending_on_declared_basis",
+    "unknown_distribution_amount_basis": "block_affected_candidate_or_held_account_until_resolved",
+    "distribution_entitlement": "previous_session_close_position_restated_for_same_day_split",
+    "distribution_cash_time": "ex_date_before_regular_open_proxy_not_actual_pay_date",
+    "distribution_tax_basis": "gross_pre_tax",
+    "actual_pay_dates_used_for_cash_timing": false,
+    "reinvestment": "no_automatic_DRIP_cash_used_only_by_normal_rebalance_orders",
+    "same_day_sequence": [
+      "split_share_and_target_adjustment",
+      "distribution_cash_credit",
+      "fractional_share_cash_in_lieu_at_open",
+      "ordinary_sells",
+      "ordinary_ranked_buys",
+      "close_valuation"
+    ],
+    "event_deduplication": "symbol_event_type_effective_date_and_source_event_id; conflicts_block_not_sum",
+    "avoid_total_return_double_counting": "adjusted_close_for_ranking_only_raw_share_prices_plus_cash_for_NAV",
+    "unsupported_actions": [
+      "merger_conversion",
+      "spinoff",
+      "rights",
+      "stock_distribution_other_than_supported_split"
+    ],
+    "unsupported_held_action": "block_account_performance_and_rebalance_until_explicit_resolution",
+    "anchor_default_assumption": "latest_completed_US_session_at_retrieval_subject_to_source_basis_checks",
+    "historical_request_end_is_not_adjustment_anchor": true,
+    "fractional_cash_in_lieu_cost_basis": "allocate_post_split_cost_basis_pro_rata_remove_fractional_basis_and_realize_cash_minus_basis"
+  },
+  "readiness_boundary": {
+    "strict_v1_DataReadiness_must_remain_unchanged": true,
+    "historical_assumptions_are_not_verified_source_capabilities": true,
+    "require_separate_public_profile_adapter": true,
+    "required_before_historical_backtest": [
+      "full_universe_manifest_and_calendar_audit",
+      "split_and_distribution_basis_checks",
+      "corporate_action_ledger_implemented_and_reconciled",
+      "public_profile_signal_and_execution_adapter_implemented",
+      "same_assumptions_applied_to_all_benchmarks"
+    ],
+    "activation": "enable_only_after_implementation_and_input_checks_pass_in_a_new_recorded_revision"
+  },
+  "research_protocol": {
+    "requested_history_start": "2024-11-04",
+    "requested_history_end_exclusive": "2026-11-04",
+    "minimum_warmup_sessions": 30,
+    "evaluation_start": "first_next_session_open_after_a_scheduled_ready_weekly_signal",
+    "existing_viewed_history": "exploratory_not_independent_out_of_sample",
+    "chronological_validation_windows": "register_before_viewing_full_universe_strategy_results",
+    "run_record_fields": [
+      "profile_and_rule_version",
+      "config_sha256",
+      "universe_sha256",
+      "raw_response_sha256",
+      "actual_retrieved_at",
+      "adjustment_anchor",
+      "modeled_availability_policy",
+      "data_exclusion_reasons",
+      "corporate_action_ledger",
+      "price_reconstruction_factors",
+      "proxy_liquidity_values",
+      "signal_targets",
+      "orders",
+      "trades",
+      "daily_NAV",
+      "assumption_flags"
+    ],
+    "registered_before_first_full_strategy_run_on_hkt": "2026-11-07",
+    "evaluation_windows": [
+      {
+        "id": "exploratory_development",
+        "start": "2024-11-04",
+        "end_exclusive": "2026-05-04"
+      },
+      {
+        "id": "exploratory_later_period",
+        "start": "2026-05-04",
+        "end_exclusive": "2026-11-04"
+      }
+    ],
+    "evaluation_window_interpretation": "Descriptive chronological splits only; existing viewed history and frozen current universe preclude independent out-of-sample claims.",
+    "complex_action_interpretation": "Existing action_basis snapshot-wide guarded prehistory is retained; future-known exclusions create additional research selection bias."
+  },
+  "acquisition_parent": {
+    "config_file": "momentum_public_v1.json",
+    "config_sha256": "3b3925b5002bd850ddf3e470f7ce729916c52353edac4fdaa580e32b5cf0e4e6",
+    "overwrite_parent_allowed": false
+  }
+}

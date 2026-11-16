@@ -1,0 +1,27 @@
+{
+  "schema_version": "stateful_dropout_public_1.0",
+  "rule_version": "DROP-PUBLIC-1.0.0",
+  "frozen_on_hkt": "2026-11-09",
+  "factor_config_file": "multifactor_public_v1.json",
+  "factor_config_sha256": "c4808b5c1dbd15aa5a0cb97301f76e9e4698333984ce0acbf4f47112c46bd403",
+  "replacement_fraction": "0.20",
+  "score_margin_population_std": "0.15",
+  "maximum_positions": 20,
+  "security_weight": "0.04",
+  "sector_cap": "0.20",
+  "forced_exits": "ineligible_or_target_constraints_separate_from_regular_drop_count",
+  "vacancy_buys": "fill_to_20_from_eligible_candidates",
+  "tie_policy": "no_swap_without_strict_score_improvement",
+  "risk_revision": {
+    "rule_version": "DROP-RISK-PUBLIC-1.0.0",
+    "maximum_two_way_trade_fraction_of_signal_NAV": "0.25",
+    "symbol_fraction_of_mean20_close_volume_proxy": "0.01",
+    "initial_entry_exempt": false,
+    "missing_liquidity_budget": "zero_no_fill",
+    "limit_scope": "ordinary_fills_only_excludes_corporate_actions_commissions",
+    "benchmark_active_risk_status": "not_ready_missing_historical_benchmark_weights_and_risk_inputs"
+  },
+  "parameter_search_performed": false,
+  "independent_out_of_sample": false,
+  "broker_routing_enabled": false
+}

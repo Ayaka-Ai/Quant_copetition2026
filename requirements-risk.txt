@@ -1,0 +1,2 @@
+# Python >= 3.11; existing non-risk entry points retain their original dependencies.
+numpy==2.3.5
